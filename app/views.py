@@ -25,7 +25,7 @@ def run_google_scraper(request):
         today = datetime.now()
         for category in BusinessCategory.objects.all():
             for location in locations:
-                if not BusinessTypes.objects.filter(category=category, location=location).first():
+                if not BusinessTypes.objects.filter(category=category, address=location).first():
                     business_type = BusinessTypes.objects.create(category=category, address=location)
                     print(f"Running {business_type.category.name} {location}")
                     data = serpapi(business_type.category.name, location)
