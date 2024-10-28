@@ -14,7 +14,7 @@ class BusinessReviews(models.Model):
     source = models.CharField(max_length=20, choices=sources_choices)
 
 
-class BusinessCategory(models.Model):
+class BusinessCategories(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=255)
 
@@ -24,7 +24,7 @@ class BusinessCategory(models.Model):
     
 class BusinessTypes(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    category = models.ForeignKey(BusinessCategory, models.RESTRICT)
+    category = models.ForeignKey(BusinessCategories, models.RESTRICT)
     address = models.CharField(max_length=255)
     date_created = models.DateTimeField(auto_now_add=True)
     last_run = models.DateTimeField(auto_now_add=False, blank=True, null=True)

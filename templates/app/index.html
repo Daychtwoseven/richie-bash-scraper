@@ -7,11 +7,25 @@
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Album example</h1>
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          {% for row in types %}
-          <a href="#" class="btn btn-primary my-2">{{ row.category.name }} in {{ row.address }}</a>
-          {% endfor %}
-        </p>
+        <form action="{% url 'app-search-page' %}" method="GET">
+          <div class="d-flex justify-content-center">
+            <select class="form-select" name="category" required>
+              <option>Select Category</option>
+              {% for row in categories %}
+              <option value="{{ row.id }}" {% if category and category == row %} selected {% endif %}>{{ row.name }}</option>
+              {% endfor %}
+            </select>
+            &nbsp;&nbsp;&nbsp;
+            <select class="form-select" name="location" required>
+              <option>Select Location</option>
+              {% for row in locations %}
+              <option value="{{ row }}" {% if location and location == row %} selected {% endif %}>{{ row }}</option>
+              {% endfor %}
+            </select>
+            &nbsp;&nbsp;&nbsp;
+            <button class="btn btn-success" type="submit">Search</button>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -112,6 +126,25 @@
           </table>
         </div>
       {% endfor %}
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="pagination">
+          <span class="step-links">
+              {% if business.has_previous %}
+                  <a href="?category={{ row.category.id }}&location={{ location }}&page=1">&laquo; first</a>
+                  <a href="?category={{ row.category.id }}&location={{ location }}&page={{ business.previous_page_number }}">previous</a>
+              {% endif %}
+
+              <span class="current">
+                  Page {{ business.number }} of {{ business.paginator.num_pages }}.
+              </span>
+
+              {% if business.has_next %}
+                  <a href="?category={{ category.id }}&location={{ location }}&page={{ business.next_page_number }}">next</a>
+                  <a href="?category={{ category.id }}&location={{ location }}&page={{ business.paginator.num_pages }}">last &raquo;</a>
+              {% endif %}
+          </span>
+      </div>
     </div>
   </div>
 

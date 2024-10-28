@@ -11,7 +11,7 @@ def serpapi(q, location):
         pages = [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
         site_key = '6LdhIq8UAAAAAO3N-yHHx5_vmutjCSQW47P4jLH1'
         query = urlencode({'q': f"{q} in {location}"})
-        for i in range(0, 100):
+        for i in range(0, 10):
             print(f"Running {q} {location} | Page: {pages[i]}")
             g_captcha = capsolver_api("https://serpapi.com/", site_key)
             url = f"https://serpapi.com/search.json?engine=google_maps&q={query}&google_domain=google.com&hl=en&type=search&async=true&gRecaptchaResponse={g_captcha}&start={pages[i]}&ll=%4040.7455096%2C-74.0083012%2C14z"
