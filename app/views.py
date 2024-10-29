@@ -1,11 +1,11 @@
-from datetime import datetime
-
+from app.models import BusinessTypes, Business, BusinessCategories
+from .utils import serpapi
 from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render
-from app.models import BusinessTypes, Business, BusinessCategories
-from .utils import serpapi, serpapi_reviews
 from . locations import locations
+from datetime import datetime
+from app.update_data import UpdateData
 
 
 def index_page(request):
@@ -28,7 +28,6 @@ def search_page(request):
         location = request.GET.get('location')
 
         page_number = 1 if not request.GET.get('page')  else request.GET.get('page')
-        print(page_number)
         paginator = Paginator(Business.objects.filter(type__category_id=category, type__address=location), 20)
         context = {
             'types': BusinessTypes.objects.all(),
@@ -80,3 +79,10 @@ def run_google_scraper(request):
     except Exception as e:
         print(e)
         return JsonResponse({'statusMsg': 'error'}, status=404)
+
+
+def run_yelp_scraper(request):
+    try:
+        UpdateData()
+    except Exception as e:
+        print(e)

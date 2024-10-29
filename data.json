@@ -1,0 +1,1971 @@
+[
+    {
+        "searchResultLayoutType": "separator",
+        "type": "searchHeader",
+        "props": {
+            "descriptionData": {
+                "rawDescription": "Frontier Motor Company 998 S Clack St, Abilene, TX 79605"
+            },
+            "address": null,
+            "breadcrumbs": [
+                {
+                    "displayText": "Automotive",
+                    "url": "https://www.yelp.com/search?find_desc=Automotive&amp;find_loc=Abilene%2C+TX",
+                    "id": "https://www.yelp.com/search?find_desc=Automotive&amp;find_loc=Abilene%2C+TX"
+                },
+                {
+                    "displayText": "Frontier Motor Company",
+                    "url": null,
+                    "id": 6100365706223020000
+                }
+            ],
+            "didYouMeanData": {},
+            "debugSearchQuery": null,
+            "adPreviewDisclaimer": null
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "filterPanel",
+        "props": {}
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "sectionLabel",
+        "props": {
+            "text": "Sponsored Results",
+            "showAdDisclosure": true,
+            "bizSiteUrl": "https://biz.yelp.com"
+        }
+    },
+    {
+        "bizId": "Yx5n6vRiJSXrpxxl1nE2gg",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": true,
+            "renderAdInfo": false,
+            "name": "Dent Control of Abilene",
+            "alternateNames": [],
+            "businessUrl": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdent-control-of-abilene-abilene&amp;request_id=aebd84017d1357f3&amp;signature=bda1e51505e70764f6e57777e530eb5840403da6f88c75eaae686b07df57d2f9&amp;slot=0",
+            "categories": [
+                {
+                    "title": "Mobile Dent Repair",
+                    "url": "/search?find_desc=Mobile+Dent+Repair&amp;find_loc=Abilene%2C+TX"
+                },
+                {
+                    "title": "Body Shops",
+                    "url": "/search?find_desc=Body+Shops&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 0,
+            "reviewCount": 0,
+            "formattedAddress": "1001 Ben Richey Dr",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "bizSiteUrl": "https://biz.yelp.com",
+            "serviceOfferings": [],
+            "businessAttributes": {
+                "AboutThisBizBioPhotoDict": null,
+                "AboutThisBizBioFirstName": null,
+                "AboutThisBizBioLastName": null
+            },
+            "alias": "dent-control-of-abilene-abilene",
+            "website": {
+                "href": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results_visit_website&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730180624%26s%3D60e3d98bd19acfde8d52a36d78a86f3f538ab45a2ddd7e5d3692ff8a29d20f1a%26src_bizid%3DYx5n6vRiJSXrpxxl1nE2gg%26url%3Dhttps%253A%252F%252Fdentcontrolabilene.com%26website_link_type%3Dwebsite&amp;request_id=aebd84017d1357f3&amp;signature=90349d61eefa6a8ae538ce547f49ded4b53df556ae9d73e4b17939ee8c2a2272&amp;slot=0",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdent-control-of-abilene-abilene%23location-and-hours&amp;request_id=aebd84017d1357f3&amp;signature=058876b180a3d11dcf035520a9f6e9ef97f99f27121a0c7367a15c7f29e65cff&amp;slot=0",
+                "reviews": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdent-control-of-abilene-abilene%23reviews&amp;request_id=aebd84017d1357f3&amp;signature=cf0675c19fa11d826cbdfc270a4d6352ce4974506ffb9403ea803b28890aefa6&amp;slot=0"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdent-control-of-abilene-abilene&amp;request_id=aebd84017d1357f3&amp;signature=bda1e51505e70764f6e57777e530eb5840403da6f88c75eaae686b07df57d2f9&amp;slot=0",
+            "allPhotosHref": "/biz_photos/Yx5n6vRiJSXrpxxl1nE2gg",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": {
+            "bizSiteUrl": "https://biz.yelp.com/business_highlights?utm_source=disclaimer_www_searchresults",
+            "businessHighlights": [
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_veteran_owned_v2",
+                    "iconName": "18x18_veteran_owned",
+                    "id": "VETERAN_OWNED_OPERATED",
+                    "title": "Veteran-owned &amp;amp; operated"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_established_in_v2",
+                    "iconName": "18x18_established_in",
+                    "id": "ESTABLISHED_IN",
+                    "title": "Established in 2017"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_consultations_available_v2",
+                    "iconName": "18x18_consultations_available",
+                    "id": "CONSULTATIONS_AVAILABLE",
+                    "title": "Consultations available"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_available_by_appointment_v2",
+                    "iconName": "18x18_available_by_appointment",
+                    "id": "AVAILABLE_BY_APPOINTMENT",
+                    "title": "Available by appointment"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_satisfaction_guaranteed_v2",
+                    "iconName": "18x18_satisfaction_guaranteed",
+                    "id": "SATISFACTION_GUARANTEED",
+                    "title": "Committed to satisfaction"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_walk_in_welcome_v2",
+                    "iconName": "18x18_walk_in_welcome",
+                    "id": "WALK_INS_WELCOME",
+                    "title": "Walk-ins welcome"
+                }
+            ],
+            "numGemsAllowed": 2
+        },
+        "tags": [
+            {
+                "label": {
+                    "text": "Online appointments",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "24x24_online_appointments_v2",
+                    "color": null
+                }
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=read_more&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdent-control-of-abilene-abilene&amp;request_id=aebd84017d1357f3&amp;signature=bda1e51505e70764f6e57777e530eb5840403da6f88c75eaae686b07df57d2f9&amp;slot=0",
+            "text": "Dent Control of Abilene Veteran Owned Paintless Dent Repair Shop with 20+ years experience. At Dent Control we repair hail damaged cars, trucks &amp;\u2026",
+            "thumbnail": {
+                "src": "https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/30s.jpg",
+                "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/ss.jpg 1.33x,https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/60s.jpg 2.00x,https://s3-media0.fl.yelpcdn.com/bphoto/BfvfhqSaAbpgjeOgx0B-Og/90s.jpg 3.00x"
+            },
+            "id": "",
+            "type": "specialty",
+            "rating": null,
+            "displayName": null,
+            "isPhotoEnabled": false
+        },
+        "searchActions": [
+            {
+                "content": {
+                    "text": {
+                        "text": "You can request a quote from this business"
+                    },
+                    "subText": {
+                        "text": null
+                    }
+                },
+                "buttonProps": {
+                    "text": "Request a quote",
+                    "href": "/adredir?ad_business_id=Yx5n6vRiJSXrpxxl1nE2gg&amp;campaign_id=Hwdd3pbTpzddbIEdtJW6Qg&amp;click_origin=search_results_mtb&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=%2Fmtb_composer%2Fbusiness%2FYx5n6vRiJSXrpxxl1nE2gg%2Fentry_point%2Fmtb_search_ad%3Fsource_request_id%3Daebd84017d1357f3&amp;request_id=aebd84017d1357f3&amp;signature=469a20f01a80ab659123933b92d892276219cc0d4905cb73dce7f0f572adcd2b&amp;slot=0",
+                    "logData": {},
+                    "isIframeAction": true
+                },
+                "ctaType": 2,
+                "isOfferCampaign": false
+            }
+        ],
+        "markerKey": "ad_business:below_organic:Hlvi9cTN0h0V8bPFasOZcg",
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "adLoggingInfo": {
+            "placement": "vertical_0",
+            "slot": 0,
+            "placementSlot": 0,
+            "opportunityId": "aebd84017d1357f3",
+            "adCampaignId": "Hwdd3pbTpzddbIEdtJW6Qg",
+            "flow": "search",
+            "isShowcaseAd": false
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "BhLXGuQKuhkU8NA7wIsaTA",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": true,
+            "renderAdInfo": false,
+            "name": "Auto Asylum Garage",
+            "alternateNames": [],
+            "businessUrl": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fauto-asylum-garage-no-title&amp;request_id=aebd84017d1357f3&amp;signature=a75d98093dd1c118a31a65c1c16efe59bbfdd3cc62b98719f5460db8b9e3b89a&amp;slot=1",
+            "categories": [
+                {
+                    "title": "Auto Customization",
+                    "url": "/search?find_desc=Auto+Customization&amp;find_loc=Abilene%2C+TX"
+                },
+                {
+                    "title": "Auto Repair",
+                    "url": "/search?find_desc=Auto+Repair&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 0,
+            "reviewCount": 0,
+            "formattedAddress": "1001 Chestnut St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "bizSiteUrl": "https://biz.yelp.com",
+            "serviceOfferings": [],
+            "businessAttributes": {
+                "AboutThisBizBioPhotoDict": null,
+                "AboutThisBizBioFirstName": null,
+                "AboutThisBizBioLastName": null
+            },
+            "alias": "auto-asylum-garage-no-title",
+            "website": {
+                "href": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results_visit_website&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730180624%26s%3Dbcdec3b29dd51a4729649288a0b785c620ec9dc449653efebe7cdef672c24f76%26src_bizid%3DBhLXGuQKuhkU8NA7wIsaTA%26url%3Dhttps%253A%252F%252Fwww.autoasylum.vip%26website_link_type%3Dwebsite&amp;request_id=aebd84017d1357f3&amp;signature=a28d267443b0dc729890d59de3bfbe12f6dd7a45791cfc9635ead34cb2cfd8fb&amp;slot=1",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fauto-asylum-garage-no-title%23location-and-hours&amp;request_id=aebd84017d1357f3&amp;signature=c19b205521d916b9a445bd0e4ede281c4050a9d3c39b1a26a276320a8a46fb5a&amp;slot=1",
+                "reviews": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fauto-asylum-garage-no-title%23reviews&amp;request_id=aebd84017d1357f3&amp;signature=f63c17eea2c2bd8cc9d77551d3a243b3e9e9318fe624039ff42166c528996e2b&amp;slot=1"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/egxpNlz6RxXF-1kOo7AWAg/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/egxpNlz6RxXF-1kOo7AWAg/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/egxpNlz6RxXF-1kOo7AWAg/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/egxpNlz6RxXF-1kOo7AWAg/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fauto-asylum-garage-no-title&amp;request_id=aebd84017d1357f3&amp;signature=a75d98093dd1c118a31a65c1c16efe59bbfdd3cc62b98719f5460db8b9e3b89a&amp;slot=1",
+            "allPhotosHref": "/biz_photos/BhLXGuQKuhkU8NA7wIsaTA",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": [
+            {
+                "projectId": "I5rmx43AqIGn2Hf1rGlUiA",
+                "photoSrc": "https://s3-media0.fl.yelpcdn.com/projectphoto/2rmpw8WonJ8Pjk1uJeW7hw/168s.jpg",
+                "caption": "2014 Wrangler"
+            },
+            {
+                "projectId": "QCSZ1n55W-Yq-Gunjp0Mlg",
+                "photoSrc": "https://s3-media0.fl.yelpcdn.com/projectphoto/CA1Fh3FzCQYWymyKNPjcJg/168s.jpg",
+                "caption": "Here, we find one of our Tech\u2019s fixing the electrical system"
+            }
+        ],
+        "searchResultBusinessHighlights": {
+            "bizSiteUrl": "https://biz.yelp.com/business_highlights?utm_source=disclaimer_www_searchresults",
+            "businessHighlights": [
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_customized_solutions_v2",
+                    "iconName": "18x18_customized_solutions",
+                    "id": "OFFERS_CUSTOMIZED_SOLUTIONS",
+                    "title": "Offers customized solutions"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_certified_professionals_v2",
+                    "iconName": "18x18_certified_professionals",
+                    "id": "CERTIFIED_PROFESSIONALS",
+                    "title": "Certified professionals"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_family_owned_v2",
+                    "iconName": "18x18_family_owned",
+                    "id": "FAMILY_OWNED_OPERATED",
+                    "title": "Family-owned &amp;amp; operated"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_free_consultations_v2",
+                    "iconName": "18x18_free_consultations",
+                    "id": "FREE_CONSULTATIONS",
+                    "title": "Free consultations"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_walk_in_welcome_v2",
+                    "iconName": "18x18_walk_in_welcome",
+                    "id": "WALK_INS_WELCOME",
+                    "title": "Walk-ins welcome"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_repairs_guaranteed_v2",
+                    "iconName": "18x18_repairs_guaranteed",
+                    "id": "REPAIRS_GUARANTEED",
+                    "title": "Committed to repairs"
+                }
+            ],
+            "numGemsAllowed": 2
+        },
+        "tags": [
+            {
+                "label": {
+                    "text": "Auto pickup and delivery",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "24x24_towing_v2",
+                    "color": null
+                }
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=read_more&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fauto-asylum-garage-no-title&amp;request_id=aebd84017d1357f3&amp;signature=a75d98093dd1c118a31a65c1c16efe59bbfdd3cc62b98719f5460db8b9e3b89a&amp;slot=1",
+            "text": "Here at Auto Asylum Garage, we offer vehicle repair and maintenance, build custom hot rods, rock crawlers, low riders, mud boggers, and any other\u2026",
+            "thumbnail": {
+                "src": "https://s3-media0.fl.yelpcdn.com/bphoto/1HeHpLTJh5Mg2zCSdL9yDg/30s.jpg",
+                "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/1HeHpLTJh5Mg2zCSdL9yDg/ss.jpg 1.33x,https://s3-media0.fl.yelpcdn.com/bphoto/1HeHpLTJh5Mg2zCSdL9yDg/60s.jpg 2.00x,https://s3-media0.fl.yelpcdn.com/bphoto/1HeHpLTJh5Mg2zCSdL9yDg/90s.jpg 3.00x"
+            },
+            "id": "",
+            "type": "specialty",
+            "rating": null,
+            "displayName": null,
+            "isPhotoEnabled": false
+        },
+        "searchActions": [
+            {
+                "content": {
+                    "text": {
+                        "text": "Responds in about <span class=\"raqResponseTime raqFastResponder\"&gt;20 mins</span&gt;"
+                    },
+                    "subText": {
+                        "text": null
+                    },
+                    "responseTimeText": {
+                        "text": "20 mins"
+                    },
+                    "responseTime": {
+                        "value": 1010
+                    }
+                },
+                "buttonProps": {
+                    "text": "Request a quote",
+                    "href": "/adredir?ad_business_id=BhLXGuQKuhkU8NA7wIsaTA&amp;campaign_id=-vD1BegpgSdZwUYEQstQzA&amp;click_origin=search_results_mtb&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=%2Fmtb_composer%2Fbusiness%2FBhLXGuQKuhkU8NA7wIsaTA%2Fentry_point%2Fmtb_search_ad%3Fsource_request_id%3Daebd84017d1357f3&amp;request_id=aebd84017d1357f3&amp;signature=e090175bb470a495e2b47d292fc34d9487dbf70645081c63536b851fc9db04c1&amp;slot=1",
+                    "logData": {},
+                    "isIframeAction": true
+                },
+                "ctaType": 2,
+                "isOfferCampaign": false
+            }
+        ],
+        "markerKey": "ad_business:below_organic:w0ZHv9LeClKE7vC_FA3rDQ",
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "adLoggingInfo": {
+            "placement": "vertical_0",
+            "slot": 1,
+            "placementSlot": 0,
+            "opportunityId": "aebd84017d1357f3",
+            "adCampaignId": "-vD1BegpgSdZwUYEQstQzA",
+            "flow": "search",
+            "isShowcaseAd": false
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "VlwRRTcSq4kJwPuI9Bn0aA",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": true,
+            "renderAdInfo": false,
+            "name": "Valvoline Instant Oil Change",
+            "alternateNames": [],
+            "businessUrl": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvalvoline-instant-oil-change-abilene-5&amp;request_id=aebd84017d1357f3&amp;signature=42bc14120127f80f042ee007be3818315e286241869d1f6fb0229d887eae9f80&amp;slot=2",
+            "categories": [
+                {
+                    "title": "Oil Change Stations",
+                    "url": "/search?find_desc=Oil+Change+Stations&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 3.8,
+            "reviewCount": 8,
+            "formattedAddress": "3382 South 14th St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "bizSiteUrl": "https://biz.yelp.com",
+            "serviceOfferings": [],
+            "businessAttributes": {
+                "AboutThisBizBioPhotoDict": null,
+                "AboutThisBizBioFirstName": null,
+                "AboutThisBizBioLastName": null
+            },
+            "alias": "valvoline-instant-oil-change-abilene-5",
+            "website": {
+                "href": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=search_results_visit_website&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730180624%26s%3D1dcb9e9200a8145bf819517b74a02a87d6c0311fbdc1289cd999c0ee77fc14c1%26src_bizid%3DVlwRRTcSq4kJwPuI9Bn0aA%26url%3Dhttps%253A%252F%252Fstore.vioc.com%252Ftx%252Fabilene%252Foil-change-070109.html%26website_link_type%3Dwebsite&amp;request_id=aebd84017d1357f3&amp;signature=46641af052c6a21602a3887dd10f8c6ff25aaaf251b1b8eb2d565703481292cc&amp;slot=2",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvalvoline-instant-oil-change-abilene-5%23location-and-hours&amp;request_id=aebd84017d1357f3&amp;signature=d948375c060802a7676ba442ab33f30dd98555f7f81fb63ab2185004fa08634d&amp;slot=2",
+                "reviews": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvalvoline-instant-oil-change-abilene-5%23reviews&amp;request_id=aebd84017d1357f3&amp;signature=7f43329b18c621ccff6866718bf922ca9dc421ba5c1e38f3b2b46158725c0932&amp;slot=2"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/8UozErRYUFhol5z2xfOO6g/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/8UozErRYUFhol5z2xfOO6g/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/8UozErRYUFhol5z2xfOO6g/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/8UozErRYUFhol5z2xfOO6g/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvalvoline-instant-oil-change-abilene-5&amp;request_id=aebd84017d1357f3&amp;signature=42bc14120127f80f042ee007be3818315e286241869d1f6fb0229d887eae9f80&amp;slot=2",
+            "allPhotosHref": "/biz_photos/VlwRRTcSq4kJwPuI9Bn0aA",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": null,
+        "tags": [
+            {
+                "label": {
+                    "text": "1.4 Miles",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "18x18_marker",
+                    "color": "red-dark"
+                }
+            },
+            {
+                "label": {
+                    "text": "<b&gt;\u201cEfficient\u201d</b&gt; - according to 1 user",
+                    "color": "normal"
+                },
+                "propertyAvailable": false
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;campaign_id=KSijSdWLeMrtPdoJJVIfnQ&amp;click_origin=read_more&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fvalvoline-instant-oil-change-abilene-5%3Fhrid%3DtDLO9uzF0PS2gwioc6--fQ&amp;request_id=aebd84017d1357f3&amp;signature=cbbca60782a8498ba750285fa57bbd5d289fd78b0d264b134be8e9647008cd74&amp;slot=2",
+            "text": "Went to this location because a friend referred me saying how fast they were and how friendly the staff was. I called ahead for pricing, saved the\u2026",
+            "thumbnail": {
+                "src": "https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_styleguide/d53e550ec367/assets/img/default_avatars/user_30_square.png",
+                "srcset": null
+            },
+            "id": "tDLO9uzF0PS2gwioc6--fQ",
+            "type": "review",
+            "rating": 5,
+            "displayName": "C W.",
+            "isPhotoEnabled": false
+        },
+        "searchActions": [
+            {
+                "content": {
+                    "text": {
+                        "text": "Open time: 7:00 am - 7:30 pm"
+                    },
+                    "subText": {
+                        "text": null
+                    }
+                },
+                "buttonProps": {
+                    "text": "Get Directions",
+                    "logData": false,
+                    "href": "/adredir?ad_business_id=VlwRRTcSq4kJwPuI9Bn0aA&amp;click_origin=search_results_direction&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fmap%2Fvalvoline-instant-oil-change-abilene-5&amp;request_id=aebd84017d1357f3&amp;signature=9beda4adc473feee80e7fc5d8ab01bc2ba74698ef163178079466eac7225f766&amp;slot=2"
+                },
+                "ctaType": 10,
+                "isOfferCampaign": false
+            }
+        ],
+        "markerKey": "ad_business:below_organic:4oAC0ih-5Wq8nWg8TmH1Ug",
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "adLoggingInfo": {
+            "placement": "vertical_0",
+            "slot": 2,
+            "placementSlot": 0,
+            "opportunityId": "aebd84017d1357f3",
+            "adCampaignId": "KSijSdWLeMrtPdoJJVIfnQ",
+            "flow": "search",
+            "isShowcaseAd": false
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "uW1vEymT_iOxl3sedfqUfQ",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": true,
+            "renderAdInfo": false,
+            "name": "O\u2019Bar Wrecker Service",
+            "alternateNames": [],
+            "businessUrl": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fo-bar-wrecker-service-abilene&amp;request_id=aebd84017d1357f3&amp;signature=e2dc1ddf90d3dbc74142310a13202f858e6db2c5e4f7f823a61d0db7eb8e3239&amp;slot=3",
+            "categories": [
+                {
+                    "title": "Roadside Assistance",
+                    "url": "/search?find_desc=Roadside+Assistance&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 4.2,
+            "reviewCount": 26,
+            "formattedAddress": "3210 Plum St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "bizSiteUrl": "https://biz.yelp.com",
+            "serviceOfferings": [],
+            "businessAttributes": {
+                "AboutThisBizBioPhotoDict": null,
+                "AboutThisBizBioFirstName": null,
+                "AboutThisBizBioLastName": null
+            },
+            "alias": "o-bar-wrecker-service-abilene",
+            "website": {
+                "href": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=search_results_visit_website&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730180624%26s%3Dcf7394f023caad7083fb9df9f30dbdb67bea2cc1054aa9388f58042b3d9edfbf%26src_bizid%3DuW1vEymT_iOxl3sedfqUfQ%26url%3Dhttp%253A%252F%252Fwww.obarwreckerservice.com%26website_link_type%3Dwebsite&amp;request_id=aebd84017d1357f3&amp;signature=8e5870f4f45f182f7f4e78e3176c538c0fbc46dbbb7a661bceba57b4ee160a07&amp;slot=3",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fo-bar-wrecker-service-abilene%23location-and-hours&amp;request_id=aebd84017d1357f3&amp;signature=4bc3b1ff3d3485f00745e0c11647836f6526b6298ae52b06c1aa8f4274030e88&amp;slot=3",
+                "reviews": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fo-bar-wrecker-service-abilene%23reviews&amp;request_id=aebd84017d1357f3&amp;signature=df891f088bef19e54fa7ec1bc758d4ef44498ab0ee62efb6ab6bdd523c71a65c&amp;slot=3"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/ZtFYDGIXfKXSxM-GN4nZAA/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/ZtFYDGIXfKXSxM-GN4nZAA/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/ZtFYDGIXfKXSxM-GN4nZAA/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/ZtFYDGIXfKXSxM-GN4nZAA/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fo-bar-wrecker-service-abilene&amp;request_id=aebd84017d1357f3&amp;signature=e2dc1ddf90d3dbc74142310a13202f858e6db2c5e4f7f823a61d0db7eb8e3239&amp;slot=3",
+            "allPhotosHref": "/biz_photos/uW1vEymT_iOxl3sedfqUfQ",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": {
+            "bizSiteUrl": "https://biz.yelp.com/business_highlights?utm_source=disclaimer_www_searchresults",
+            "businessHighlights": [
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_family_owned_v2",
+                    "iconName": "18x18_family_owned",
+                    "id": "FAMILY_OWNED_OPERATED",
+                    "title": "Family-owned &amp;amp; operated"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_years_in_business_v2",
+                    "iconName": "18x18_years_in_business",
+                    "id": "YEARS_IN_BUSINESS",
+                    "title": "50 years in business"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_emergency_services_v2",
+                    "iconName": "18x18_emergency_services",
+                    "id": "EMERGENCY_SERVICES",
+                    "title": "Emergency services"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_twenty_four_seven_availability_v2",
+                    "iconName": "18x18_twenty_four_seven_availability",
+                    "id": "_24_7_AVAILABILITY",
+                    "title": "24/7 Availability"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_offers_commercial_services_v2",
+                    "iconName": "18x18_offers_commercial_services",
+                    "id": "OFFERS_COMMERCIAL_SERVICES",
+                    "title": "Offers commercial services"
+                },
+                {
+                    "bizPageIconName": "",
+                    "group": {},
+                    "bizPageIconV2Name": "40x40_locally_owned_v2",
+                    "iconName": "18x18_locally_owned",
+                    "id": "LOCALLY_OWNED_OPERATED",
+                    "title": "Locally owned &amp;amp; operated"
+                }
+            ],
+            "numGemsAllowed": 2
+        },
+        "tags": [
+            {
+                "label": {
+                    "text": "<b&gt;\u201cProfessional\u201d</b&gt; - according to 4 users",
+                    "color": "normal"
+                },
+                "propertyAvailable": false
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/adredir?ad_business_id=uW1vEymT_iOxl3sedfqUfQ&amp;campaign_id=22CzVgBQk2oM_Q-ZkJLCrQ&amp;click_origin=read_more&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fo-bar-wrecker-service-abilene%3Fhrid%3DhKkrR_mW3BgOLpsYa06fUw&amp;request_id=aebd84017d1357f3&amp;signature=e19544954b27231ca316880577140066b5009da418740276b0530f0f80374cad&amp;slot=3",
+            "text": "The fact that I am taking time to write a review for a wrecker service really says it all. Usually you get your car towed, when the need arises, and\u2026",
+            "thumbnail": {
+                "src": "https://s3-media0.fl.yelpcdn.com/photo/9aIaYcK7U9TMDMvaaQOEjA/30s.jpg",
+                "srcset": "https://s3-media0.fl.yelpcdn.com/photo/9aIaYcK7U9TMDMvaaQOEjA/ss.jpg 1.33x,https://s3-media0.fl.yelpcdn.com/photo/9aIaYcK7U9TMDMvaaQOEjA/60s.jpg 2.00x,https://s3-media0.fl.yelpcdn.com/photo/9aIaYcK7U9TMDMvaaQOEjA/90s.jpg 3.00x"
+            },
+            "id": "hKkrR_mW3BgOLpsYa06fUw",
+            "type": "review",
+            "rating": 5,
+            "displayName": "Chad W.",
+            "isPhotoEnabled": false
+        },
+        "searchActions": [],
+        "markerKey": "ad_business:below_organic:7LUwG69uWy1a_0RMhO_rjg",
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "adLoggingInfo": {
+            "placement": "vertical_0",
+            "slot": 3,
+            "placementSlot": 0,
+            "opportunityId": "aebd84017d1357f3",
+            "adCampaignId": "22CzVgBQk2oM_Q-ZkJLCrQ",
+            "flow": "search",
+            "isShowcaseAd": false
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "FGIvoTW9Ir1eta97a3jotg",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": true,
+            "renderAdInfo": false,
+            "name": "Discount Tire",
+            "alternateNames": [],
+            "businessUrl": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdiscount-tire-abilene-5&amp;request_id=aebd84017d1357f3&amp;signature=a8c4cac729d917fe638fe90385343bb07c480832499e7e1788745fff02764869&amp;slot=4",
+            "categories": [
+                {
+                    "title": "Wheel &amp; Rim Repair",
+                    "url": "/search?find_desc=Wheel+%26+Rim+Repair&amp;find_loc=Abilene%2C+TX"
+                },
+                {
+                    "title": "Tires",
+                    "url": "/search?find_desc=Tires&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 3.8,
+            "reviewCount": 26,
+            "formattedAddress": "4585 S 1st St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "bizSiteUrl": "https://biz.yelp.com",
+            "serviceOfferings": [],
+            "businessAttributes": {
+                "AboutThisBizBioPhotoDict": null,
+                "AboutThisBizBioFirstName": null,
+                "AboutThisBizBioLastName": null
+            },
+            "alias": "discount-tire-abilene-5",
+            "website": {
+                "href": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=search_results_visit_website&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730180624%26s%3Dff39006309969d291a1545e81aa3d9ae64abadc00dbdc2bb7724751234ce7681%26src_bizid%3DFGIvoTW9Ir1eta97a3jotg%26url%3Dhttps%253A%252F%252Fwww.discounttire.com%252Fstore%252Ftx%252Fabilene%252Fs%252F2041%253Futm_campaign%253DYelpBusLinkClick%2526utm_medium%253Dsocial%2526utm_source%253Dyelp%26website_link_type%3Dwebsite&amp;request_id=aebd84017d1357f3&amp;signature=de997190d0e5cf46ae0b97a51fcf46b99117c8a8bd66db43e8c8e024d47082f0&amp;slot=4",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdiscount-tire-abilene-5%23location-and-hours&amp;request_id=aebd84017d1357f3&amp;signature=4500ec73cdf9a5c23b70b3ad194862b8c9974d74c1a53dcaa6ff2de92f1f2d78&amp;slot=4",
+                "reviews": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdiscount-tire-abilene-5%23reviews&amp;request_id=aebd84017d1357f3&amp;signature=a0ff18b121f55c16ebaaed2a3ac952aaee68dfa9a90bcac4d4041e08c51a06d6&amp;slot=4"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/LzLF9R7AuS0XyJ59ohM7Uw/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/LzLF9R7AuS0XyJ59ohM7Uw/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/LzLF9R7AuS0XyJ59ohM7Uw/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/LzLF9R7AuS0XyJ59ohM7Uw/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=search_results&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdiscount-tire-abilene-5&amp;request_id=aebd84017d1357f3&amp;signature=a8c4cac729d917fe638fe90385343bb07c480832499e7e1788745fff02764869&amp;slot=4",
+            "allPhotosHref": "/biz_photos/FGIvoTW9Ir1eta97a3jotg",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": null,
+        "tags": [
+            {
+                "label": {
+                    "text": "1.0 Miles",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "18x18_marker",
+                    "color": "red-dark"
+                }
+            },
+            {
+                "label": {
+                    "text": "<b&gt;\u201cProfessional\u201d</b&gt; - according to 1 user",
+                    "color": "normal"
+                },
+                "propertyAvailable": false
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/adredir?ad_business_id=FGIvoTW9Ir1eta97a3jotg&amp;campaign_id=VuVO0xVpgG6ieCzGyeubAg&amp;click_origin=read_more&amp;placement=vertical_0&amp;placement_slot=0&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fdiscount-tire-abilene-5%3Fhrid%3DBtygtPn2O7kBS65BmqzWGw&amp;request_id=aebd84017d1357f3&amp;signature=c10837f6de5a9d5a4b889c6340aaa6f74922a91f385c4c6394c511c0f01f53ad&amp;slot=4",
+            "text": "Great people, very friendly. My only problem is I have to bring my vehicle back the next day to re fix the problem. If this was a some times or not so\u2026",
+            "thumbnail": {
+                "src": "https://s3-media0.fl.yelpcdn.com/photo/FaC3z14ofJgnjSsk22-YTA/30s.jpg",
+                "srcset": "https://s3-media0.fl.yelpcdn.com/photo/FaC3z14ofJgnjSsk22-YTA/ss.jpg 1.33x,https://s3-media0.fl.yelpcdn.com/photo/FaC3z14ofJgnjSsk22-YTA/60s.jpg 2.00x,https://s3-media0.fl.yelpcdn.com/photo/FaC3z14ofJgnjSsk22-YTA/90s.jpg 3.00x"
+            },
+            "id": "BtygtPn2O7kBS65BmqzWGw",
+            "type": "review",
+            "rating": 4,
+            "displayName": "Dear G.",
+            "isPhotoEnabled": false
+        },
+        "searchActions": [],
+        "markerKey": "ad_business:below_organic:5dOCPAtxyN-cCF-LFb8L5A",
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "adLoggingInfo": {
+            "placement": "vertical_0",
+            "slot": 4,
+            "placementSlot": 0,
+            "opportunityId": "aebd84017d1357f3",
+            "adCampaignId": "VuVO0xVpgG6ieCzGyeubAg",
+            "flow": "search",
+            "isShowcaseAd": false
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "divider",
+        "props": {}
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "grayBlockSeparator",
+        "props": {
+            "variant": "short"
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "sectionLabel",
+        "props": {
+            "text": "All \"frontier motor company\" results near me in Abilene, Texas - October 2024",
+            "showAdDisclosure": false,
+            "bizSiteUrl": "https://biz.yelp.com"
+        }
+    },
+    {
+        "bizId": "gjjZRtHl0xhAJyvCSX7MDw",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": false,
+            "renderAdInfo": false,
+            "name": "Frontier Motor Company",
+            "alternateNames": [],
+            "businessUrl": "/biz/frontier-motor-company-abilene-3?osq=Frontier+Motor+Company",
+            "categories": [
+                {
+                    "title": "Car Dealers",
+                    "url": "/search?find_desc=Car+Dealers&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 1,
+            "reviewCount": 1,
+            "formattedAddress": "998 South Clack St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "serviceOfferings": [],
+            "businessAttributes": {},
+            "alias": "frontier-motor-company-abilene-3",
+            "website": null,
+            "businessSectionUrls": {
+                "open_hours": "/biz/frontier-motor-company-abilene-3?osq=Frontier+Motor+Company#location-and-hours",
+                "reviews": "/biz/frontier-motor-company-abilene-3?osq=Frontier+Motor+Company#reviews"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/02whYUrUZdQC8k4HGOtkRQ/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/02whYUrUZdQC8k4HGOtkRQ/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/02whYUrUZdQC8k4HGOtkRQ/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/02whYUrUZdQC8k4HGOtkRQ/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/biz/frontier-motor-company-abilene-3?osq=Frontier+Motor+Company",
+            "allPhotosHref": "/biz_photos/gjjZRtHl0xhAJyvCSX7MDw",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": null,
+        "tags": [
+            {
+                "label": {
+                    "text": "0.01 Miles",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "18x18_marker",
+                    "color": "red-dark"
+                }
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/biz/frontier-motor-company-abilene-3?hrid=qMfjFQRoWFEk0jVbkCOC4Q&amp;osq=Frontier+Motor+Company",
+            "text": "I put in a good review of this [[HIGHLIGHT]]company[[ENDHIGHLIGHT]] a few months ago, because I had a positive experience with...",
+            "thumbnail": null,
+            "id": "",
+            "type": "review",
+            "rating": 1,
+            "displayName": null,
+            "isPhotoEnabled": false
+        },
+        "searchActions": [],
+        "markerKey": 1,
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "BZ3IGQI1OqrS68YPGzT0Iw",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": false,
+            "renderAdInfo": false,
+            "name": "Frontier Motor Co",
+            "alternateNames": [],
+            "businessUrl": "/biz/frontier-motor-co-abilene-4?osq=Frontier+Motor+Company",
+            "categories": [
+                {
+                    "title": "Car Dealers",
+                    "url": "/search?find_desc=Car+Dealers&amp;find_loc=Abilene%2C+TX"
+                }
+            ],
+            "priceRange": "",
+            "rating": 1.8,
+            "reviewCount": 4,
+            "formattedAddress": "998 S Clack St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "serviceOfferings": [],
+            "businessAttributes": {},
+            "alias": "frontier-motor-co-abilene-4",
+            "website": {
+                "href": "http://www.frontiermotorcompany.com",
+                "rel": "noopener nofollow"
+            },
+            "businessSectionUrls": {
+                "open_hours": "/biz/frontier-motor-co-abilene-4?osq=Frontier+Motor+Company#location-and-hours",
+                "reviews": "/biz/frontier-motor-co-abilene-4?osq=Frontier+Motor+Company#reviews"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/bphoto/AsMsSiXVrBj0U1r7ChTHQQ/ls.jpg",
+                    "srcset": "https://s3-media0.fl.yelpcdn.com/bphoto/AsMsSiXVrBj0U1r7ChTHQQ/258s.jpg 1.03x,https://s3-media0.fl.yelpcdn.com/bphoto/AsMsSiXVrBj0U1r7ChTHQQ/300s.jpg 1.20x,https://s3-media0.fl.yelpcdn.com/bphoto/AsMsSiXVrBj0U1r7ChTHQQ/348s.jpg 1.39x"
+                }
+            ],
+            "photoHref": "/biz/frontier-motor-co-abilene-4?osq=Frontier+Motor+Company",
+            "allPhotosHref": "/biz_photos/BZ3IGQI1OqrS68YPGzT0Iw",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": null,
+        "tags": [
+            {
+                "label": {
+                    "text": "0.01 Miles",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "18x18_marker",
+                    "color": "red-dark"
+                }
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": {
+            "readMoreText": "more",
+            "readMoreUrl": "/biz/frontier-motor-co-abilene-4?hrid=AIDUDhI4O0VFg7B57VIw2A&amp;osq=Frontier+Motor+Company",
+            "text": "I don't have to use a buy-here, pay-here [[HIGHLIGHT]]car dealer[[ENDHIGHLIGHT]] anymore, BUT suffice it to say that this has...",
+            "thumbnail": null,
+            "id": "",
+            "type": "review",
+            "rating": 4,
+            "displayName": null,
+            "isPhotoEnabled": false
+        },
+        "searchActions": [],
+        "markerKey": 2,
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "bizId": "zUXGyz9qbUEblLHQKEI5Ig",
+        "searchResultBusiness": {
+            "ranking": null,
+            "isAd": false,
+            "renderAdInfo": false,
+            "name": "Frontier Motor Co",
+            "alternateNames": [],
+            "businessUrl": "/biz/frontier-motor-co-abilene-3?osq=Frontier+Motor+Company",
+            "categories": [],
+            "priceRange": "",
+            "rating": 0,
+            "reviewCount": 0,
+            "formattedAddress": "1934 Butternut St",
+            "neighborhoods": [],
+            "phone": "",
+            "serviceArea": null,
+            "parentBusiness": null,
+            "servicePricing": null,
+            "serviceOfferings": [],
+            "businessAttributes": {},
+            "alias": "frontier-motor-co-abilene-3",
+            "website": null,
+            "businessSectionUrls": {
+                "open_hours": "/biz/frontier-motor-co-abilene-3?osq=Frontier+Motor+Company#location-and-hours",
+                "reviews": "/biz/frontier-motor-co-abilene-3?osq=Frontier+Motor+Company#reviews"
+            }
+        },
+        "scrollablePhotos": {
+            "isScrollable": false,
+            "photoList": [
+                {
+                    "src": "https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_styleguide/4f30aa60678e/assets/img/default_avatars/business_large_square.png",
+                    "srcset": null
+                }
+            ],
+            "photoHref": "/biz/frontier-motor-co-abilene-3?osq=Frontier+Motor+Company",
+            "allPhotosHref": "/biz_photos/zUXGyz9qbUEblLHQKEI5Ig",
+            "isResponsive": false
+        },
+        "childrenBusinessInfo": null,
+        "searchResultBusinessPortfolioProjects": null,
+        "searchResultBusinessHighlights": null,
+        "tags": [
+            {
+                "label": {
+                    "text": "3.0 Miles",
+                    "color": "normal"
+                },
+                "propertyAvailable": false,
+                "icon": {
+                    "name": "18x18_marker",
+                    "color": "red-dark"
+                }
+            }
+        ],
+        "serviceOfferings": [],
+        "snippet": null,
+        "searchActions": [],
+        "markerKey": 3,
+        "searchResultLayoutType": "scrollablePhotos",
+        "verifiedLicenseLayout": "BadgeAndTextBelowBizName",
+        "yelpGuaranteedInfo": {
+            "yelp_guaranteed_status": null,
+            "yg_info_modal_url": "https://www.yelp.com/yelp-guaranteed"
+        },
+        "offerCampaignDetails": null,
+        "openHoursData": {
+            "format": "none",
+            "open_time": null
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "pagination",
+        "props": {
+            "totalResults": 6,
+            "resultsPerPage": 10,
+            "startResult": 0
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "searchFeedback",
+        "props": {
+            "addBusinessButtonUrl": "/search/add_business/search_button_www?find_loc=998+S+Clack+St%2C+Abilene%2C+TX+79605&amp;find_loc=998+S+Clack+St%2C+Abilene%2C+TX+79605",
+            "feedbackLinkUrl": "/contact?topic=feedback",
+            "customerAddBizUrl": "/search/add_business/modal_button_www?find_loc=998+S+Clack+St%2C+Abilene%2C+TX+79605&amp;find_loc=998+S+Clack+St%2C+Abilene%2C+TX+79605",
+            "ownerAddBizUrl": "/search/add_business/modal_button_biz",
+            "loggedIn": false,
+            "searchFeedbackCsrf": "5801de394d2842c4d6b249e9444c3fef7f7fff7ca68d476252bb8876b0cde1e5",
+            "contactSubmitFeedbackUri": "/contact/submit_feedback",
+            "hCaptchaPublicKey": "3ac4dbce-c141-45f7-bfff-ea3c23dc5b42",
+            "noSearchResults": false
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "relatedLinks",
+        "props": {
+            "sections": [
+                {
+                    "title": "Related Searches in Abilene, TX",
+                    "links": [
+                        {
+                            "name": "Automotive",
+                            "url": "/search?find_desc=Automotive&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Automotive in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Car Inspection",
+                            "url": "/search?find_desc=Car+Inspection&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Car Inspection in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Chevrolet Dealer",
+                            "url": "/search?find_desc=Chevrolet+Dealer&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Chevrolet Dealer in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "German Auto Repair",
+                            "url": "/search?find_desc=German+Auto+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "German Auto Repair in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Honda Repair",
+                            "url": "/search?find_desc=Honda+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Honda Repair in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Toyota Repair",
+                            "url": "/search?find_desc=Toyota+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Toyota Repair in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Toyota Service",
+                            "url": "/search?find_desc=Toyota+Service&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Toyota Service in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Auto Mechanic",
+                            "url": "/search?find_desc=Auto+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Auto Mechanic"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cheap Mechanic",
+                            "url": "/search?find_desc=Cheap+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Cheap Mechanic"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ford Repair",
+                            "url": "/search?find_desc=Ford+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Ford Repair"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Honda Service",
+                            "url": "/search?find_desc=Honda+Service&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Honda Service"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mercedes Service",
+                            "url": "/search?find_desc=Mercedes+Service&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Mercedes Service"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Performance Auto Shops",
+                            "url": "/search?find_desc=Performance+Auto+Shops&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Performance Auto Shops"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Subaru Repair",
+                            "url": "/search?find_desc=Subaru+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Subaru Repair"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Used Cars",
+                            "url": "/search?find_desc=Used+Cars&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Best "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Used Cars"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Alignment",
+                            "url": "/search?find_desc=Alignment&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Alignment in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Auto Parts Store",
+                            "url": "/search?find_desc=Auto+Parts+Store&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Auto Parts Store in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ford Mechanic",
+                            "url": "/search?find_desc=Ford+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Ford Mechanic in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Infiniti Repair",
+                            "url": "/search?find_desc=Infiniti+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Infiniti Repair in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Lexus Repair",
+                            "url": "/search?find_desc=Lexus+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Lexus Repair in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mechanic",
+                            "url": "/search?find_desc=Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Mechanic in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Subaru Mechanic",
+                            "url": "/search?find_desc=Subaru+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Subaru Mechanic in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Used Car Dealers",
+                            "url": "/search?find_desc=Used+Car+Dealers&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Used Car Dealers in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Volvo Repair",
+                            "url": "/search?find_desc=Volvo+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Volvo Repair in Abilene, Texas"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Auto Parts &amp; Supplies",
+                            "url": "/search?find_desc=Auto+Parts+%26+Supplies&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Auto Parts &amp; Supplies"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BMW Repair",
+                            "url": "/search?find_desc=BMW+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "BMW Repair"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "BMW Service",
+                            "url": "/search?find_desc=BMW+Service&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "BMW Service"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Car Repair",
+                            "url": "/search?find_desc=Car+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Car Repair"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Porsche Mechanic",
+                            "url": "/search?find_desc=Porsche+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Porsche Mechanic"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Toyota Body Shop",
+                            "url": "/search?find_desc=Toyota+Body+Shop&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Toyota Body Shop"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Volvo Dealership",
+                            "url": "/search?find_desc=Volvo+Dealership&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": [
+                                {
+                                    "formatting": [],
+                                    "text": "Top 10 "
+                                },
+                                {
+                                    "formatting": [
+                                        "bold"
+                                    ],
+                                    "text": "Volvo Dealership"
+                                },
+                                {
+                                    "formatting": [],
+                                    "text": " in Abilene, TX"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Trending Searches in Abilene, TX",
+                    "links": [
+                        {
+                            "name": "Apartments",
+                            "url": "/search?find_desc=Apartments&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Body Shops",
+                            "url": "/search?find_desc=Body+Shops&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Car Wash",
+                            "url": "/search?find_desc=Car+Wash&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Cheap Mechanic",
+                            "url": "/search?find_desc=Cheap+Mechanic&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Chiropractors",
+                            "url": "/search?find_desc=Chiropractors&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Dental Office",
+                            "url": "/search?find_desc=Dental+Office&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Dentists",
+                            "url": "/search?find_desc=Dentists&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Electricians",
+                            "url": "/search?find_desc=Electricians&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Fireplace Services",
+                            "url": "/search?find_desc=Fireplace+Services&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Firewood",
+                            "url": "/search?find_desc=Firewood&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Gas Stations",
+                            "url": "/search?find_desc=Gas+Stations&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "General Contractors",
+                            "url": "/search?find_desc=General+Contractors&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Headlight &amp; Taillight Services",
+                            "url": "/search?find_desc=Headlight+%26+Taillight+Services&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Home Cleaning",
+                            "url": "/search?find_desc=Home+Cleaning&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Lexus Auto Repair",
+                            "url": "/search?find_desc=Lexus+Auto+Repair&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Mercedes Service",
+                            "url": "/search?find_desc=Mercedes+Service&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Optometrists",
+                            "url": "/search?find_desc=Optometrists&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Plumbing",
+                            "url": "/search?find_desc=Plumbing&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Taxidermy",
+                            "url": "/search?find_desc=Taxidermy&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Tree Services",
+                            "url": "/search?find_desc=Tree+Services&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        },
+                        {
+                            "name": "Used Car Dealers",
+                            "url": "/search?find_desc=Used+Car+Dealers&amp;find_loc=Abilene%2C+TX",
+                            "icon": null,
+                            "formattedText": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "talkTopics",
+        "props": {
+            "talkItems": []
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "relatedCostGuides",
+        "props": {
+            "relatedCostGuidesContent": [
+                {
+                    "name": "Auto Detailing",
+                    "url": "https://www.yelp.com/costs/auto_detailing",
+                    "alias": "auto_detailing",
+                    "pricingData": {
+                        "median": 160,
+                        "25th_percentile": 100,
+                        "75th_percentile": 250
+                    }
+                },
+                {
+                    "name": "Auto Glass Services",
+                    "url": "https://www.yelp.com/costs/autoglass",
+                    "alias": "autoglass",
+                    "pricingData": {
+                        "median": 199,
+                        "25th_percentile": 150,
+                        "75th_percentile": 264
+                    }
+                },
+                {
+                    "name": "Car Dealers",
+                    "url": "https://www.yelp.com/costs/car_dealers",
+                    "alias": "car_dealers",
+                    "pricingData": {
+                        "median": 193,
+                        "25th_percentile": 100,
+                        "75th_percentile": 386
+                    }
+                },
+                {
+                    "name": "DIY Auto Shop",
+                    "url": "https://www.yelp.com/costs/diyautoshop",
+                    "alias": "diyautoshop",
+                    "pricingData": {
+                        "median": 295,
+                        "25th_percentile": 195,
+                        "75th_percentile": 450
+                    }
+                },
+                {
+                    "name": "Mobile Dent Repair",
+                    "url": "https://www.yelp.com/costs/mobiledentrepair",
+                    "alias": "mobiledentrepair",
+                    "pricingData": {
+                        "median": 250,
+                        "25th_percentile": 150,
+                        "75th_percentile": 350
+                    }
+                },
+                {
+                    "name": "Oil Change Stations",
+                    "url": "https://www.yelp.com/costs/oilchange",
+                    "alias": "oilchange",
+                    "pricingData": {
+                        "median": 100,
+                        "25th_percentile": 55,
+                        "75th_percentile": 260
+                    }
+                },
+                {
+                    "name": "RV Repair",
+                    "url": "https://www.yelp.com/costs/rvrepair",
+                    "alias": "rvrepair",
+                    "pricingData": {
+                        "median": 250,
+                        "25th_percentile": 100,
+                        "75th_percentile": 475
+                    }
+                },
+                {
+                    "name": "Windshield Installation and Repair",
+                    "url": "https://www.yelp.com/costs/windshieldinstallrepair",
+                    "alias": "windshieldinstallrepair",
+                    "pricingData": {
+                        "median": 195,
+                        "25th_percentile": 159,
+                        "75th_percentile": 24
+                    }
+                }
+            ],
+            "title": "Related Cost Guides"
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "relatedCostGuides",
+        "props": {
+            "relatedCostGuidesContent": [],
+            "title": null
+        }
+    },
+    {
+        "searchResultLayoutType": "separator",
+        "type": "frequentlyAskedQuestions",
+        "props": {
+            "faqAllContent": {
+                "faqContent": {
+                    "relatedSearches": {
+                        "question": "What did people search for similar to frontier motor company near Abilene, TX?",
+                        "answerPrompt": "People also searched for these near Abilene:",
+                        "answer": {
+                            "type": "list",
+                            "content": [
+                                {
+                                    "displayName": "Used Car Dealers",
+                                    "url": "/search?find_desc=Used+Car+Dealers&amp;find_loc=Abilene%2C+TX"
+                                },
+                                {
+                                    "displayName": "Oil Change Stations",
+                                    "url": "/search?find_desc=Oil+Change+Stations&amp;find_loc=Abilene%2C+TX"
+                                },
+                                {
+                                    "displayName": "Auto Repair",
+                                    "url": "/search?find_desc=Auto+Repair&amp;find_loc=Abilene%2C+TX"
+                                },
+                                {
+                                    "displayName": "Towing",
+                                    "url": "/search?find_desc=Towing&amp;find_loc=Abilene%2C+TX"
+                                },
+                                {
+                                    "displayName": "Body Shops",
+                                    "url": "/search?find_desc=Body+Shops&amp;find_loc=Abilene%2C+TX"
+                                }
+                            ],
+                            "bottomContent": {
+                                "preText": null,
+                                "linkTextList": [
+                                    {
+                                        "text": "See more frontier motor company near Abilene.",
+                                        "url": "/search?find_desc=Frontier+Motor+Company&amp;find_loc=Abilene%2C+TX"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "serviceOfferings": {
+                        "question": "What are some popular services for car dealers?",
+                        "answerPrompt": "Some popular services for car dealers include:",
+                        "answer": [
+                            {
+                                "displayName": "Virtual Consultations",
+                                "url": "/search?find_desc=Virtual+Consultations&amp;find_loc=Abilene%2C+TX"
+                            }
+                        ]
+                    }
+                },
+                "faqJsonLdContent": [
+                    {
+                        "@type": "Question",
+                        "name": "What did people search for similar to frontier motor company near Abilene, TX?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "People also searched for these near Abilene:<ul&gt;<li&gt;<a href='/search?find_desc=Used+Car+Dealers&amp;find_loc=Abilene%2C+TX'&gt;Used Car Dealers</a&gt;</li&gt;<li&gt;<a href='/search?find_desc=Oil+Change+Stations&amp;find_loc=Abilene%2C+TX'&gt;Oil Change Stations</a&gt;</li&gt;<li&gt;<a href='/search?find_desc=Auto+Repair&amp;find_loc=Abilene%2C+TX'&gt;Auto Repair</a&gt;</li&gt;<li&gt;<a href='/search?find_desc=Towing&amp;find_loc=Abilene%2C+TX'&gt;Towing</a&gt;</li&gt;<li&gt;<a href='/search?find_desc=Body+Shops&amp;find_loc=Abilene%2C+TX'&gt;Body Shops</a&gt;</li&gt;</ul&gt;<p&gt;<a href=/search?find_desc=Frontier+Motor+Company&amp;find_loc=Abilene%2C+TX&gt;See more frontier motor company near Abilene.</a&gt;</p&gt;"
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are some popular services for car dealers?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Some popular services for car dealers include:<ul&gt;<li&gt;<a href='/search?find_desc=Virtual+Consultations&amp;find_loc=Abilene%2C+TX'&gt;Virtual Consultations</a&gt;</li&gt;</ul&gt;"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]
