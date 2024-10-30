@@ -18,7 +18,8 @@ class UpdateData:
 
     def run_scraper(self):
         today = datetime.now()
-        for row in Business.objects.exclude(last_update__date=today):
+        #for row in Business.objects.exclude(last_update__date=today):
+        for row in Business.objects.all():
             name = row.name
             address = row.address
             business_domain = urlparse(row.website).netloc if row.website else None
@@ -139,99 +140,4 @@ class UpdateData:
 
         except Exception as e:
             print(e)
-            return data
-
-    def yelp(self, name, address, business_domain):
-        data = None
-        try:
-            find_desc = urlencode({'find_desc': name})
-            find_loc = urlencode({'find_loc': address})
-
-            # Define the headers
-            headers = {
-                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-                'accept-language': 'en-US,en;q=0.5',
-                'cache-control': 'max-age=0',
-                'priority': 'u=0, i',
-                'sec-ch-ua': '"Chromium";v="130", "Brave";v="130", "Not?A_Brand";v="99"',
-                'sec-ch-ua-arch': '"x86"',
-                'sec-ch-ua-full-version-list': '"Chromium";v="130.0.0.0", "Brave";v="130.0.0.0", "Not?A_Brand";v="99.0.0.0"',
-                'sec-ch-ua-mobile': '?0',
-                'sec-ch-ua-model': '""',
-                'sec-ch-ua-platform': '"Windows"',
-                'sec-fetch-dest': 'document',
-                'sec-fetch-mode': 'navigate',
-                'sec-fetch-site': 'same-origin',
-                'sec-fetch-user': '?1',
-                'sec-gpc': '1',
-                'upgrade-insecure-requests': '1',
-                'user-agent': custom_windows_user_agent(),
-                'cookie': 'datadome=f1IOQfRgenvYiSTN51RdGruUlonS0LbL~i~86tOsoLi7D~5_EQP_7DvxCmnULUJ1ciAkxqh_E6hz_IV5jVlXOZHWfv~wfN0Z6MxLdFA7JmQ_pqhuFO2MU1rw~pFzp6Jp'
-            }
-
-            response = self.session.get(f"https://www.yelp.com/search?{find_desc}&{find_loc}", headers=headers,
-                                        proxies={
-                                            'http': 'http://customer-dmvteam:Chadix2023%23AI@dc.pr.oxylabs.io:10000',
-                                            'https': 'http://customer-dmvteam:Chadix2023%23AI@dc.pr.oxylabs.io:10000'
-                                        })
-            print(response.content)
-            # headers['cookie'] = f'datadome={response.cookies.get('datadome')}'
-            # response = session.get(f"https://www.yelp.com/search?{find_desc}&{find_loc}", headers=headers)
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, 'html.parser')
-                script_tag = soup.find('script', type='application/json', attrs={
-                    'data-hypernova-key': 'yelpfrontend__831__yelpfrontend__GondolaSearch__dynamic'
-                })
-
-                if script_tag:
-                    script_content = script_tag.string
-                    temp_data = json.loads(script_content[4:-3])
-                    business = temp_data['legacyProps']['searchAppProps']['searchPageProps'][
-                        'mainContentComponentsListProps']
-
-                    for row in business:
-                        if 'searchResultBusiness' in row:
-                            yelp_name = row['searchResultBusiness']['name']
-                            rating = row['searchResultBusiness']['rating']
-                            review_count = row['searchResultBusiness']['reviewCount']
-                            yelp_address = row['searchResultBusiness']['formattedAddress']
-                            website = row['searchResultBusiness']['website']['href'] if row['searchResultBusiness'][
-                                'website'] else None
-                            yelp_url = f"https://www.yelp.com{row['searchResultBusiness']['businessSectionUrls']['reviews']}"
-
-                            if is_website(website) and business_domain:
-                                website_domain = urlparse(website).netloc
-                                if website_domain == business_domain:
-                                    data = {
-                                        'name': yelp_name,
-                                        'rating': rating,
-                                        'review_count': review_count,
-                                        'address': yelp_address,
-                                        'website': website,
-                                        'yelp_url': yelp_url
-                                    }
-                                    break
-
-                            if check_similarity(name.split('-')[0].lower(),
-                                                yelp_name.split('-')[0].lower() or check_similarity(
-                                                        address.split(',')[0].lower(),
-                                                        yelp_address.split(',')[0].lower())):
-                                data = {
-                                    'name': yelp_name,
-                                    'rating': rating,
-                                    'review_count': review_count,
-                                    'address': yelp_address,
-                                    'website': website,
-                                    'yelp_url': yelp_url
-                                }
-                                break
-
-                else:
-                    print("Script tag not found.")
-            else:
-                print(f"Request failed with status code: {response.status_code}")
-            return data
-
-        except Exception as e:
-            print(f"Error from yelp: {e}")
             return data
