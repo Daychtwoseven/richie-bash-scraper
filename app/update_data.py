@@ -8,7 +8,11 @@ from urllib.parse import urlencode, urlparse
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
+import os
+import django
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
+django.setup()
 
 class UpdateData:
     def __init__(self):
@@ -24,7 +28,6 @@ class UpdateData:
             address = row.address
             business_domain = urlparse(row.website).netloc if row.website else None
             updated_data = self.update_scraper(name, address, row.type.address, row.google_pid if row.google_pid else None, row)
-
             if updated_data:
                 row.facebook_rating = updated_data['facebook_rating']
                 row.facebook_reviews_count = updated_data['facebook_review']
@@ -115,7 +118,7 @@ class UpdateData:
                             data['yelp_review'] = temp_data['rich_snippet']['top']['detected_extensions'][
                                 'reviews'] if 'reviews' in temp_data['rich_snippet']['top'][
                                 'detected_extensions'] else ''
-                            data['urlp_url'] = temp_data['link']
+                            data['yelp_url'] = temp_data['link']
                             data['yelp_result'] = 1
 
                         if 'source' in temp_data and data['website_result'] == 0 and check_similarity(re.split(r'[-|]', name)[0].lower(),
@@ -133,11 +136,15 @@ class UpdateData:
                 response = self.session.request("GET", response.json()['search_metadata']['json_endpoint'])
                 if response.status_code == 200:
                     temp_json_data = response.json()
-                    data['google_rating'] = temp_json_data['rating'] if 'rating' in temp_json_data else ''
-                    data['google_review'] = temp_json_data['reviews'] if 'reviews' in temp_json_data else ''
+                    if 'local_result' in temp_json_data:
+                        data['google_rating'] = temp_json_data['rating'] if 'rating' in temp_json_data['local_result'] else ''
+                        data['google_review'] = temp_json_data['reviews'] if 'reviews' in temp_json_data['local_result'] else ''
 
             return data
 
         except Exception as e:
             print(e)
             return data
+
+
+UpdateData()

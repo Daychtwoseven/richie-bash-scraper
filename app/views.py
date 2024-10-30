@@ -3,13 +3,13 @@ import time
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.models import BusinessTypes, Business, BusinessCategories
-from .utils import serpapi
 from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render
 from . locations import locations
 from datetime import datetime
 from app.update_data import UpdateData
+from app.google_scraper import run_google_scraper
 
 
 def index_page(request):
@@ -48,45 +48,15 @@ def search_page(request):
         return JsonResponse({'statusMsg': 'error'}, status=404)
 
 
-def run_google_scraper(request):
+def google_scraper(request):
     try:
-        today = datetime.now()
-        for category in BusinessCategories.objects.all():
-            for location in locations:
-                if not BusinessTypes.objects.filter(category=category, address=location).first():
-                    business_type = BusinessTypes.objects.create(category=category, address=location)
-                    print(f"Running {business_type.category.name} {location}")
-                    data = serpapi(business_type.category.name, location)
-
-                    position = 1
-                    for place in data:
-                        rating = place['rating'] if 'rating' in place else ''
-                        review = place['reviews'] if 'reviews' in place else 0
-                        description = place['description'] if 'description' in place else ''
-                        thumbnail = place['thumbnail'] if 'thumbnail' in place else ''
-                        name = place['title'] if 'title' in place else ''
-                        phone = place['phone'] if 'phone' in place else ''
-                        address = place['address'] if 'address' in place else ''
-                        hours = place['hours'] if 'hours' in place else ''
-                        place_id = place['place_id'] if 'place_id' in place else ''
-                        google_id = place['data_id'] if 'data_id' in place else ''
-                        google_cid = place['data_cid'] if 'data_cid' in place else ''
-                        website = place['website'] if 'website' in place else ''
-                        google_map = f"https://www.google.com/maps?cid={place['place_id'] if 'place_id' in place else ''}"
-                        if not Business.objects.filter(google_pid=place_id).first() and not Business.objects.filter(name=name, address=address).first():
-                            Business.objects.create(google_map=google_map, website=website, google_id=google_id, google_cid=google_cid, position=position, type=business_type, google_rating=rating, google_reviews_count=review, description=description, thumbnail=thumbnail, name=name, phone=phone, address=address, hours=hours, google_pid=place_id, last_update=today)
-                        position += 1
-                    business_type.last_run = datetime.now()
-                    business_type.save()
-
-        return JsonResponse({'statusMsg': 'success'})
-
+        run_google_scraper()
     except Exception as e:
         print(e)
         return JsonResponse({'statusMsg': 'error'}, status=404)
 
 
-def run_yelp_scraper(request):
+def yelp_scraper(request):
     try:
         UpdateData()
     except Exception as e:

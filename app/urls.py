@@ -16,11 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import index_page, search_page, run_google_scraper, run_yelp_scraper
+from .views import index_page, search_page, google_scraper, yelp_scraper
 
 urlpatterns = [
     path('', index_page, name='app-index-page'),
     path('search/', search_page, name='app-search-page'),
-    path('run-google-scraper/', run_google_scraper, name='app-run-google-scraper'),
-    path('run-yelp-scraper/', run_yelp_scraper, name='app-run-yelp-scraper'),
+    path('run-google-scraper/', google_scraper, name='app-run-google-scraper'),
+    path('run-yelp-scraper/', yelp_scraper, name='app-run-yelp-scraper'),
 ]
