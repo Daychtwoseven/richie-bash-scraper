@@ -10,7 +10,8 @@ class BusinessReviews(models.Model):
         ('yelp', 'Yelp')
     ]
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    content = models.TextField()
+    business = models.ForeignKey('Business', models.RESTRICT, null=True)
+    content = models.JSONField()
     source = models.CharField(max_length=20, choices=sources_choices)
 
 
@@ -33,7 +34,6 @@ class BusinessTypes(models.Model):
         return f"{str(self.category.name)} | {self.address}"
 
 
-
 class Business(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     type = models.ForeignKey(BusinessTypes, models.RESTRICT)
@@ -41,15 +41,15 @@ class Business(models.Model):
     description = models.TextField(null=True)
     address = models.CharField(max_length=255, blank=True, null=True)
     date_created = models.DateTimeField(auto_now_add=True)
-    reviews = models.ManyToManyField(BusinessReviews)
-    google_reviews_count = models.IntegerField(default=0)
-    facebook_reviews_count = models.IntegerField(default=0)
-    yelp_reviews_count = models.IntegerField(default=0)
+    google_reviews_count = models.CharField(max_length=255,default=0)
+    facebook_reviews_count = models.CharField(max_length=255,default=0)
+    yelp_reviews_count = models.CharField(max_length=255,default=0)
     google_rating = models.CharField(max_length=255, default=0)
     facebook_rating = models.CharField(max_length=255, default=0)
     yelp_rating = models.CharField(max_length=255, default=0)
     google_pid = models.TextField(null=True)
     facebook_pid = models.TextField(null=True)
+    facebook_url = models.TextField(null=True)
     yelp_url = models.TextField(null=True)
     last_update = models.DateTimeField(auto_now_add=False, blank=True, null=True)
     thumbnail = models.TextField(null=True)

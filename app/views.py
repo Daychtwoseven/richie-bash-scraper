@@ -1,3 +1,7 @@
+import time
+
+from selenium.webdriver.support.wait import WebDriverWait
+
 from app.models import BusinessTypes, Business, BusinessCategories
 from .utils import serpapi
 from django.core.paginator import Paginator
