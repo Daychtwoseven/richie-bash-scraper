@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 from app.models import Business, BusinessReviews
-from app.utils import custom_windows_user_agent, is_website, check_similarity, capsolver_api, facebook
+from app.utils import custom_windows_user_agent, is_website, check_similarity, capsolver_api
 from urllib.parse import urlencode, urlparse
 from curl_cffi import requests
 from bs4 import BeautifulSoup
@@ -34,8 +34,9 @@ class UpdateData:
                 row.google_rating = updated_data['google_rating']
                 row.google_reviews_count = updated_data['google_review']
                 row.last_update = today
+                row.website = updated_data['website_url']
                 row.save()
-                google_business_review = BusinessReviews.objects.create(business=row, content=updated_data['google_review_data'])
+                #google_business_review = BusinessReviews.objects.create(business=row, content=updated_data['google_review_data'])
 
             print(f"Updating {name} | {address}")
 
@@ -51,8 +52,9 @@ class UpdateData:
             'yelp_result': 0,
             'google_rating': business.google_rating,
             'google_review': business.google_reviews_count,
-            'google_review_data': {}
-
+            'google_review_data': {},
+            'website_result': 0,
+            'website_url': ''
         }
 
         try:
@@ -115,20 +117,23 @@ class UpdateData:
                             data['urlp_url'] = temp_data['link']
                             data['yelp_result'] = 1
 
+                        if 'source' in temp_data and data['website_result'] == 0 and check_similarity(re.split(r'[-|]', name)[0].lower(),
+                                                                 re.split(r'[-|]', temp_data['source'])[
+                                                                     0].lower()):
+                            data['website_url'] = temp_data['link'] if 'link' in temp_data else ''
+                            data['website_result'] = 1
+
+
             if google_pid:
                 g_captcha = capsolver_api("https://serpapi.com/", self.site_key)
-                url = f"https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&place_id={google_pid}&async=true&gRecaptchaResponse={g_captcha}"
+                url = f"https://serpapi.com/search.json?engine=google_local&{query}&google_domain=google.com&async=true&gRecaptchaResponse={g_captcha}&ludocid={google_pid}"
                 response = self.session.request("GET", url, headers=headers)
                 time.sleep(2)
                 response = self.session.request("GET", response.json()['search_metadata']['json_endpoint'])
                 if response.status_code == 200:
                     temp_json_data = response.json()
-                    if "place_info" in temp_json_data:
-
-                        data['google_rating'] = temp_json_data['place_info']['rating']
-                        data['google_review'] = temp_json_data['place_info']['reviews']
-                        if 'reviews' in temp_json_data:
-                            data['google_review_data'] = temp_json_data['reviews']
+                    data['google_rating'] = temp_json_data['rating'] if 'rating' in temp_json_data else ''
+                    data['google_review'] = temp_json_data['reviews'] if 'reviews' in temp_json_data else ''
 
             return data
 

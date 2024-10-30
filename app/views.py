@@ -72,8 +72,9 @@ def run_google_scraper(request):
                         google_id = place['data_id'] if 'data_id' in place else ''
                         google_cid = place['data_cid'] if 'data_cid' in place else ''
                         website = place['website'] if 'website' in place else ''
-                        if not Business.objects.filter(google_pid=place_id):
-                            Business.objects.create(website=website, google_id=google_id, google_cid=google_cid, position=position, type=business_type, google_rating=rating, google_reviews_count=review, description=description, thumbnail=thumbnail, name=name, phone=phone, address=address, hours=hours, google_pid=place_id, last_update=today)
+                        google_map = f"https://www.google.com/maps?cid={place['place_id'] if 'place_id' in place else ''}"
+                        if not Business.objects.filter(google_pid=place_id).first() and not Business.objects.filter(name=name, address=address).first():
+                            Business.objects.create(google_map=google_map, website=website, google_id=google_id, google_cid=google_cid, position=position, type=business_type, google_rating=rating, google_reviews_count=review, description=description, thumbnail=thumbnail, name=name, phone=phone, address=address, hours=hours, google_pid=place_id, last_update=today)
                         position += 1
                     business_type.last_run = datetime.now()
                     business_type.save()
