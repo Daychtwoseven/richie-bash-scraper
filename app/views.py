@@ -1,12 +1,13 @@
 import time
 
+from django.contrib import messages
 from django.db.models import Count
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.models import BusinessTypes, Business, BusinessCategories
 from django.core.paginator import Paginator
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from . locations import locations
 from datetime import datetime
 from app.update_data import UpdateData
@@ -24,7 +25,7 @@ def index_page(request):
         context = {
             'types': BusinessTypes.objects.all(),
             'categories': BusinessCategories.objects.all(),
-            'business': Business.objects.all()[0:10],
+            'business': Business.objects.all()[0:20],
             'locations': locations
         }
         return render(request, 'app/index.html', context)
@@ -66,5 +67,46 @@ def google_scraper(request):
 def yelp_scraper(request):
     try:
         UpdateData()
+    except Exception as e:
+        print(e)
+
+
+def update_business_page(request, business_id):
+    try:
+        business = Business.objects.filter(id=business_id).first()
+        if request.method == "POST" and business:
+            business.name = request.POST.get('name')
+            business.phone = request.POST.get('phone')
+            business.email = request.POST.get('email')
+            business.google_rating = request.POST.get('google_rating')
+            business.google_reviews_count = request.POST.get('google_reviews_count')
+            business.facebook_rating = request.POST.get('facebook_rating')
+            business.facebook_reviews_count = request.POST.get('facebook_reviews_count')
+            business.yelp_rating = request.POST.get('yelp_rating')
+            business.yelp_reviews_count = request.POST.get('yelp_reviews_count')
+            business.our_review = request.POST.get('our_review')
+            business.our_rating = request.POST.get('our_rating')
+            business.save()
+            messages.success(request, f"{business.name} successfully updated.")
+
+            if request.POST.get('category') and request.POST.get('location'):
+                return redirect('app-search-page', category=request.POST.get('category'), location=request.POST.get('location'))
+
+            return redirect('app-index-page')
+        context = {
+            'business': business
+        }
+        return render(request, 'app/update.html', context)
+    except Exception as e:
+        print(e)
+
+
+def show_business_page(request, business_id):
+    try:
+        context = {
+            'business': Business.objects.filter(id=business_id).first()
+        }
+        return render(request, 'app/show_business.html', context)
+
     except Exception as e:
         print(e)

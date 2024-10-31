@@ -30,12 +30,100 @@
           font-size: 3.5rem;
         }
       }
+
+   .review-card {
+        background-color: #fff;
+        padding: 20px;
+        width: 100%;
+        max-width: 800px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Spacing between sections */
+    }
+    .rating, .review-sources {
+        display: flex;
+        flex-direction: column;
+    }
+    .rating {
+        flex: 1; /* Take up available space */
+    }
+    .separator {
+        width: 1px;
+        background-color: #ccc;
+        height: 100%;
+    }
+    .rating-stars {
+        color: #00c4a7;
+        font-size: 24px;
+    }
+    .rating-text {
+        color: #333;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+    .show-details {
+        color: #00c4a7;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .review-sources {
+        flex: 1;
+    }
+    .review-source-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .review-source-item .source-rating {
+        color: #00c4a7;
+        font-weight: bold;
+    }
+
+       h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .dealership-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    .dealership-table th, .dealership-table td {
+        padding: 15px;
+        text-align: left;
+    }
+    .dealership-table th {
+        background-color: #006D77;
+        color: white;
+        font-weight: bold;
+    }
+    .dealership-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .dealership-table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    .star-rating {
+        color: #00c4a7;
+        font-size: 18px;
+    }
+    .show-details {
+        color: #00c4a7;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .view-more {
+        color: #00c4a7;
+        font-weight: bold;
+        text-decoration: none;
+    }
     </style>
-
-
   </head>
   <body>
-
 <header>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">

@@ -1,0 +1,59 @@
+<div class="modal-header">
+    <h5 class="modal-title">Update Business</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body" id="updateBusinessBody">
+  <form action="/update-business/{{ business.id }}/?category={{ category }}&location={{ location }}" method="POST">
+    {% csrf_token %}
+    <div class="form-group mb-2">
+      <label>Name</label>
+      <input type="text" class="form-control" name="name" value="{{ business.name }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Phone</label>
+      <input type="text" class="form-control" name="phone" value="{{ business.phone }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Email</label>
+      <input type="text" class="form-control" name="email" value="{% if business.email %}{{ business.email }}{%endif%}">
+    </div>
+    <div class="form-group mb-2">
+      <label>Google Rating</label>
+      <input type="text" class="form-control" name="google_rating" value="{{ business.google_rating }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Google Reviews Count</label>
+      <input type="text" class="form-control" name="google_reviews_count" value="{{ business.google_reviews_count }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Facebook Rating</label>
+      <input type="text" class="form-control" name="facebook_rating" value="{{ business.facebook_rating }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Facebook Reviews Count</label>
+      <input type="text" class="form-control" name="facebook_reviews_count" value="{{ business.facebook_reviews_count }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Yelp Rating</label>
+      <input type="text" class="form-control" name="yelp_rating" value="{{ business.yelp_rating }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Yelp Reviews Count</label>
+      <input type="text" class="form-control" name="yelp_reviews_count" value="{{ business.yelp_reviews_count }}" required>
+    </div>
+    <div class="form-group mb-2">
+      <label>Our Review</label>
+      <textarea class="form-control" name="our_review">{% if business.our_review %} {{ business.our_review }} {% endif %}</textarea>
+    </div>
+    <div class="form-group mb-2">
+      <label>Our Rating</label>
+      <input type="text" class="form-control" name="our_rating" value="{{ business.our_rating }}" required>
+    </div>
+    <div class="d-flex justify-content-end">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    &nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary">Save changes</button>
+  </div>
+  </form>
+  </div>
+

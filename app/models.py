@@ -60,6 +60,9 @@ class Business(models.Model):
     website = models.CharField(max_length=255, null=True)
     position = models.IntegerField(default=0)
     google_map = models.TextField(null=True)
+    email = models.CharField(max_length=255, null=True)
+    our_review = models.TextField(null=True)
+    our_rating = models.CharField(max_length=255, null=True, default=0)
 
     def __str__(self):
         return f"{str(self.name)} | {self.type.category.name} | {self.type.address}"

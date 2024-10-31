@@ -1,0 +1,31 @@
+<div class="modal-header">
+    <h5 class="modal-title">Ratings</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body" id="updateBusinessBody">
+    <h4>{{ business.name }}</h4>
+    <h6>Our Reviews</h6>
+    <div class="star-rating">
+        {{ business.our_rating }}★
+    </div>
+    <p>
+        This is our overall score based on our research and proprietary grading system.
+    </p>
+    <strong>Reviews</strong>
+    <p>{{ business.our_reviews }}</p>
+    <strong class="font-weight-bold">Review Sources</strong>
+    <div class="review-sources">
+        <div class="review-source-item">
+            <div>Google</div>
+            <div class="source-rating">★{{ business.google_rating }} <span>({{ business.google_reviews_count }})</span></div>
+        </div>
+        <div class="review-source-item">
+            <div>Facebook</div>
+            <div class="source-rating">★{{ business.facebook_rating }} <span>({{ business.facebook_reviews_count }})</span></div>
+        </div>
+        <div class="review-source-item">
+            <div>Yelp</div>
+            <div class="source-rating">★{{ business.yelp_rating }} <span>({{ business.yelp_reviews_count }})</span></div>
+        </div>
+    </div>
+</div>
