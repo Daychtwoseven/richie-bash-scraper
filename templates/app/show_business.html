@@ -1,3 +1,4 @@
+{% load app_tags %}
 <div class="modal-header">
     <h5 class="modal-title">Ratings</h5>
     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -5,8 +6,19 @@
 <div class="modal-body" id="updateBusinessBody">
     <h4>{{ business.name }}</h4>
     <h6>Our Reviews</h6>
+    {% str_to_int business as our_rating %}
     <div class="star-rating">
-        {{ business.our_rating }}★
+        {% if our_rating.avg_int == 1 %}
+        ★
+        {% elif our_rating.avg_int == 2 %}
+        ★★
+        {% elif our_rating.avg_int == 3 %}
+        ★★★
+        {% elif our_rating.avg_int == 4 %}
+        ★★★★
+        {% elif our_rating.avg_int == 5 %}
+        ★★★★★
+        {% endif %}
     </div>
     <p>
         This is our overall score based on our research and proprietary grading system.

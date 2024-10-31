@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load app_tags %}
 {% block body %}
 
  <section class="py-5 text-center container">
@@ -32,7 +32,7 @@
 
   <div class="album py-5 bg-light">
     <div class="container">
-      {% for row in business %}
+      {% for row in business|slice:"0:10" %}
         <div class="d-flex justify-content-center">
           <table class="col-lg-7">
             <tbody>
@@ -56,7 +56,6 @@
                           <h4 class="mt-2">{{ row.name }}</h4>
                           <p class="text-muted">{{ row.address }}</p>
                           <div class="d-flex justify-content-start">
-                            <a href="tel:{{ row.phone }}" class="btn btn-success">{{ row.phone }}</a>
                             &nbsp;&nbsp;
                             {% if row.email != '' %}
                             <a href="email:{{ row.email }}" class="btn btn-success" target="_blank">Send Email</a>
@@ -70,13 +69,22 @@
                           <div class="review-card">
                             <div class="rating">
                                 <div class="rating-stars">
-                                    {% if row.our_rating != '0' %}
+                                    {% str_to_int row as our_rating %}
                                     <div class="star-rating">
-                                        ★{{ row.our_rating }}
+                                        {% if our_rating.avg_int == 1 %}
+                                        ★
+                                        {% elif our_rating.avg_int == 2 %}
+                                        ★★
+                                        {% elif our_rating.avg_int == 3 %}
+                                        ★★★
+                                        {% elif our_rating.avg_int == 4 %}
+                                        ★★★★
+                                        {% elif our_rating.avg_int == 5 %}
+                                        ★★★★★
+                                        {% endif %}
                                     </div>
-                                    {% endif %}
                                 </div>
-                                <div class="rating-text">Our Reviews</div>
+                                <div class="rating-text">Our Rating</div>
                                 <div class="show-details" onClick="showDetails('{{ row.id }}')">Show details</div>
                             </div>
                             <div class="separator"></div>
@@ -146,14 +154,23 @@
                     <tr>
                         <td>{{ row.name }}</td>
                         <td>
-                            {% if row.our_rating != '0' %}
+                            {% str_to_int row as our_rating %}
                             <div class="star-rating">
-                                {{ row.our_rating }}★
+                                {% if our_rating.avg_int == 1 %}
+                                ★
+                                {% elif our_rating.avg_int == 2 %}
+                                ★★
+                                {% elif our_rating.avg_int == 3 %}
+                                ★★★
+                                {% elif our_rating.avg_int == 4 %}
+                                ★★★★
+                                {% elif our_rating.avg_int == 5 %}
+                                ★★★★★
+                                {% endif %}
                             </div>
-                            {% endif %}
                             <div class="show-details"  onClick="showDetails('{{ row.id }}')">Show details</div>
                         </td>
-                        <td>Bronx, NY 10469</td>
+                        <td>{{ row.address }}</td>
                         <td></td>
                         <td><a href="#" class="view-more">View More</a></td>
                     </tr>
