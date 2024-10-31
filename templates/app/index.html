@@ -40,9 +40,11 @@
                 <td>
                   <div>
                     <div class="card shadow-sm rounded">
-                      <div class="d-flex justify-content-end m-2">
-                        <button class="btn btn-primary" onClick="updateBusiness('{{ row.id }}')">{% if request.user %} Update Business {% endif %}</button>
-                      </div>
+                      {% if request.user.is_authenticated  %}
+                          <div class="d-flex justify-content-end m-2">
+                            <button class="btn btn-primary" onClick="updateBusiness('{{ row.id }}')">Update Business</button>
+                          </div>
+                      {% endif %}
                       <div class="d-flex justify-content-start">
                         <div class="card m-2 bg-secondary" style="width:25%; height: 20%;">
                           <div class="d-flex justify-content-center">
