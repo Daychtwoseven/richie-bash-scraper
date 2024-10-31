@@ -20,7 +20,8 @@ def capsolver_api(url, site_key, max_retries=3, retry_delay=5):
 
             start_time = time.time()
             result = ReCaptcha(
-                api_key='CAP-D4FC4D3226B5C2A9BC366DA9DE49205A',
+                api_key='CAP-A0FF5C57390086770047EB1E17383F51',
+                #api_key='CAP-D4FC4D3226B5C2A9BC366DA9DE49205A',
                 captcha_type="ReCaptchaV2TaskProxyLess",
                 websiteURL=url,
                 websiteKey=site_key
@@ -106,3 +107,23 @@ def custom_windows_user_agent():
     ]
     browser = random.choice(browsers)
     return f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) {browser} AppleWebKit/537.36 (KHTML, like Gecko)"
+
+
+def find_closest_offset(number):
+    offset_list = [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400]
+    # Round the number to the nearest multiple of 10
+    rounded_number = round(number / 10) * 10
+
+    # Check if the rounded number is in the offset list
+    if rounded_number in offset_list:
+        return rounded_number
+    else:
+        # Find the closest numbers above and below the rounded number
+        above = next((x for x in offset_list if x > rounded_number), None)
+        below = next((x for x in reversed(offset_list) if x < rounded_number), None)
+
+        # Choose the closest one based on the rules
+        if rounded_number > above:  # Round off was true, check above
+            return above
+        else:  # Round off was not true, check below
+            return below

@@ -1,30 +1,67 @@
+import time
 from urllib.parse import urlparse, parse_qs
-
 from bs4 import BeautifulSoup
 import requests
-import re
 
+session = requests.Session()
 
-check = requests.get("https://www.yelp.com/adredir?ad_business_id=d0VNyBz91TX3ZchNAGJMog&amp;campaign_id=NRyb9YEZS9Er3H6ExDjORQ&amp;click_origin=search_results_visit_website&amp;placement=vertical_1&amp;placement_slot=2&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz_redir%3Fcachebuster%3D1730174505%26s%3D406d2df9760d4a2cc3635976844d46d3fa1b94fc6af580cf6202bf17abb4b3f4%26src_bizid%3Dd0VNyBz91TX3ZchNAGJMog%26url%3Dhttp%253A%252F%252Fbuysideauto.com%26website_link_type%3Dwebsite&amp;request_id=9c20dfa7a95e11f1&amp;signature=a0d425c2933e19f16eddb54f917e7ba0f3b495a92a164369448326e670853221&amp;slot=3")
-# Step 1: Decode the bytes to a string
-html_content = check.content.decode('utf-8')
+for i in range(0, 20):
+    url = "https://www.google.com/search?q=NJ+State+Auto+Used+Cars+Jersey+City+in+Jersey+City%2C+NJ+facebook.com+and+yelp.com"
 
-# Step 2: Create a BeautifulSoup object
-soup = BeautifulSoup(html_content, 'html.parser')
+    payload = {}
+    headers = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'accept-language': 'en-US,en;q=0.7',
+        'cache-control': 'no-cache',
+        'cookie': 'AEC=AVYB7crnQFZRnAANjtV0JgCSG2PV2X8rMN1R59ExQ8ozLIuYPsB8u5CuJw; NID=518=AIvyY-pAiJJzHQtgu8s64HLW2zFiW9Ov7AQ-Ei9Cpv-dLX_CF0UjiWIOJnVst0h4EYPCi0U7LUqCH7r1ihuzU7vFEz5_w_FBw77aPaguP5axosFHi7_58gfUyKvTNyCrh-FOFfGpHGbQOyu_NGLPqQkeWm2JZK8fEIp5wu9nKyznfTFpHYJeHipk5lsmtpe4sLI',
+        'pragma': 'no-cache',
+        'priority': 'u=0, i',
+        'referer': 'https://www.google.com/',
+        'sec-ch-ua': '"Chromium";v="130", "Brave";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua-arch': '"x86"',
+        'sec-ch-ua-bitness': '"64"',
+        'sec-ch-ua-full-version-list': '"Chromium";v="130.0.0.0", "Brave";v="130.0.0.0", "Not?A_Brand";v="99.0.0.0"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-model': '""',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-ch-ua-platform-version': '"15.0.0"',
+        'sec-ch-ua-wow64': '?0',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-user': '?1',
+        'sec-gpc': '1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    }
 
-# Step 3: Find all script tags
-script_tags = soup.find_all('script')
+    response = requests.request("GET", url, headers=headers, data=payload)
 
-# Step 4: Extract the location.replace URL from the script content
-for script in script_tags:
-    if 'location.replace' in script.text:
-        # Use regex to extract the URL
-        match = re.search(r'location\.replace\("([^"]+)"\)', script.text)
-        if match:
-            redirect_url = match.group(1)
-            parsed_url = urlparse(redirect_url.replace('\\u0026', '&'))
+    print(response.text)
 
-            # Step 2: Extract query parameters
-            query_params = parse_qs(parsed_url.query)
-            url_value = query_params.get('url', [None])[0]
+    response = session.request("GET", url, headers=headers, data=payload)
 
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        results_div = soup.find('div', class_="dURPMd")
+        results = results_div.findAll('div', class_='N54PNb')
+        for row in results:
+            # Find the <a> element once
+            link_element = row.find('a', {'jsname': 'UWckNb'})
+            link = link_element['href'] if link_element else ''
+
+            # Find the <h3> element once
+            title_element = row.find('h3', class_='LC20lb')
+            title = title_element.text if title_element else ''
+
+            # Find the rating element once
+            rating_element = row.find('span', class_='yi40Hd')
+            rating = rating_element.text if rating_element else ''
+
+            # Find the reviews element once
+            reviews_element = row.find('span', class_='RDApEe')
+            reviews = reviews_element.text.replace('(', '').replace(')', '') if reviews_element else ''
+
+            print(f"Title: {title} | Rating: {rating} | Reviews: {reviews} | Link: {link}")
+
+        time.sleep(15)

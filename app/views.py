@@ -1,5 +1,6 @@
 import time
 
+from django.db.models import Count
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.models import BusinessTypes, Business, BusinessCategories
@@ -14,6 +15,12 @@ from app.google_scraper import run_google_scraper
 
 def index_page(request):
     try:
+        """print((
+            Business.objects
+            .values('google_pid')  # Group by the 'google' field
+            .annotate(count=Count('id'))  # Count occurrences
+            .order_by('google_pid')  # Optional: order by the 'google' field
+        ))"""
         context = {
             'types': BusinessTypes.objects.all(),
             'categories': BusinessCategories.objects.all(),
