@@ -5,7 +5,7 @@
 </div>
 <div class="modal-body" id="updateBusinessBody">
     <h4>{{ business.name }}</h4>
-    <h6>Our Reviews</h6>
+    <h6>Our Rating</h6>
     {% str_to_int business as our_rating %}
     <div class="star-rating">
         {% if our_rating.avg_int == 1 %}

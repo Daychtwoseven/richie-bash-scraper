@@ -65,9 +65,9 @@
                       </div>
 
                       <div class="card-body">
-                        <p class="card-text">{{ row.description }}</p>
                           <div class="review-card">
                             <div class="rating">
+                                <div class="rating-text"><h4>Our Rating</h4></div>
                                 <div class="rating-stars">
                                     {% str_to_int row as our_rating %}
                                     <div class="star-rating">
@@ -84,21 +84,20 @@
                                         {% endif %}
                                     </div>
                                 </div>
-                                <div class="rating-text">Our Rating</div>
                                 <div class="show-details" onClick="showDetails('{{ row.id }}')">Show details</div>
                             </div>
                             <div class="separator"></div>
                             <div class="review-sources">
                                 <div class="review-source-item">
-                                    <div>Google</div>
+                                    <strong><h5>Google</h5></strong>
                                     <div class="source-rating">★{{ row.google_rating }} <span>({{ row.google_reviews_count }})</span></div>
                                 </div>
                                 <div class="review-source-item">
-                                    <div>Facebook</div>
+                                    <strong><h5>Facebook</h5></strong>
                                     <div class="source-rating">★{{ row.facebook_rating }} <span>({{ row.facebook_reviews_count }})</span></div>
                                 </div>
                                 <div class="review-source-item">
-                                    <div>Yelp</div>
+                                    <strong><h5>Yelp</h5></strong>
                                     <div class="source-rating">★{{ row.yelp_rating }} <span>({{ row.yelp_reviews_count }})</span></div>
                                 </div>
                             </div>
