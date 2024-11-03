@@ -26,7 +26,8 @@ def index_page(request):
             'types': BusinessTypes.objects.all(),
             'categories': BusinessCategories.objects.all(),
             'business': Business.objects.all()[0:20],
-            'locations': locations
+            'locations': locations,
+            'featured': Business.objects.filter(featured=True).all()
         }
         return render(request, 'app/index.html', context)
     except Exception as e:
@@ -47,7 +48,8 @@ def search_page(request):
             'business': paginator.get_page(page_number),
             'locations': locations,
             'location': location,
-            'category': BusinessCategories.objects.filter(id=category).first()
+            'category': BusinessCategories.objects.filter(id=category).first(),
+            'featured': Business.objects.filter(featured=True).all()
         }
         return render(request, 'app/index.html', context)
 

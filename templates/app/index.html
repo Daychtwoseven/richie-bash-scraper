@@ -32,6 +32,91 @@
 
   <div class="album py-5 bg-light">
     <div class="container">
+        {% for row in featured%}
+        <div class="d-flex justify-content-center">
+          <table class="col-lg-7">
+            <tbody>
+              <tr>
+                <td>
+                  <div>
+                    <div class="card shadow-sm rounded">
+                      {% if request.user.is_authenticated  %}
+                          <div class="d-flex justify-content-end m-2">
+                            <button class="btn btn-primary" onClick="updateBusiness('{{ row.id }}')">Update Business</button>
+                          </div>
+                      {% endif %}
+                        <div class="d-flex justify-content-end m-2">
+                            <span class="badge bg-primary">Featured</span>
+                          </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="card m-2 bg-secondary" style="width:25%; height: 20%;">
+                          <div class="d-flex justify-content-center">
+                            <h4 class="p-3 text-white">{{ row.name }}</h4>
+                          </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <div>
+                          <h4 class="mt-2">{{ row.name }}</h4>
+                          <p class="text-muted">{{ row.address }}</p>
+                          <div class="d-flex justify-content-start">
+                            &nbsp;&nbsp;
+                            {% if row.email != '' %}
+                            <a href="email:{{ row.email }}" class="btn btn-success" target="_blank">Send Email</a>
+                            {% endif %}
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card-body">
+                          <div class="review-card">
+                            <div class="rating">
+                                <div class="rating-text"><h4>Our Rating</h4></div>
+                                <div class="rating-stars">
+                                    {% str_to_int row as our_rating %}
+                                    <div class="star-rating" style="font-size: 20px">
+                                        {% if our_rating.avg_int == 1 %}
+                                        ★
+                                        {% elif our_rating.avg_int == 2 %}
+                                        ★★
+                                        {% elif our_rating.avg_int == 3 %}
+                                        ★★★
+                                        {% elif our_rating.avg_int == 4 %}
+                                        ★★★★
+                                        {% elif our_rating.avg_int == 5 %}
+                                        ★★★★★
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="show-details" onClick="showDetails('{{ row.id }}')">Show details</div>
+                            </div>
+                            <div class="separator"></div>
+                            <div class="review-sources">
+                                <div class="review-source-item">
+                                    <strong><h5>Google</h5></strong>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.google_rating }} <span>({{ row.google_reviews_count }})</span></div>
+                                </div>
+                                <div class="review-source-item">
+                                    <strong><h5>Facebook</h5></strong>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.facebook_rating }} <span>({{ row.facebook_reviews_count }})</span></div>
+                                </div>
+                                <div class="review-source-item">
+                                    <strong><h5>Yelp</h5></strong>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.yelp_rating }} <span>({{ row.yelp_reviews_count }})</span></div>
+                                </div>
+                            </div>
+                        </div>
+                          <!--
+                          <small class="text-muted">9 mins</small>
+                          -->
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      {% endfor %}
       {% for row in business|slice:"0:10" %}
         <div class="d-flex justify-content-center">
           <table class="col-lg-7">
@@ -70,7 +155,7 @@
                                 <div class="rating-text"><h4>Our Rating</h4></div>
                                 <div class="rating-stars">
                                     {% str_to_int row as our_rating %}
-                                    <div class="star-rating">
+                                    <div class="star-rating" style="font-size: 20px">
                                         {% if our_rating.avg_int == 1 %}
                                         ★
                                         {% elif our_rating.avg_int == 2 %}
@@ -90,15 +175,15 @@
                             <div class="review-sources">
                                 <div class="review-source-item">
                                     <strong><h5>Google</h5></strong>
-                                    <div class="source-rating">★{{ row.google_rating }} <span>({{ row.google_reviews_count }})</span></div>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.google_rating }} <span>({{ row.google_reviews_count }})</span></div>
                                 </div>
                                 <div class="review-source-item">
                                     <strong><h5>Facebook</h5></strong>
-                                    <div class="source-rating">★{{ row.facebook_rating }} <span>({{ row.facebook_reviews_count }})</span></div>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.facebook_rating }} <span>({{ row.facebook_reviews_count }})</span></div>
                                 </div>
                                 <div class="review-source-item">
                                     <strong><h5>Yelp</h5></strong>
-                                    <div class="source-rating">★{{ row.yelp_rating }} <span>({{ row.yelp_reviews_count }})</span></div>
+                                    <div class="source-rating" style="font-size: 20px">★{{ row.yelp_rating }} <span>({{ row.yelp_reviews_count }})</span></div>
                                 </div>
                             </div>
                         </div>
