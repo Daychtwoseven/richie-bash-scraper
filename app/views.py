@@ -1,7 +1,8 @@
 import time
-
+from django.core import serializers
 from django.contrib import messages
 from django.db.models import Count
+from django.utils.text import slugify
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.models import BusinessTypes, Business, BusinessCategories
@@ -29,6 +30,7 @@ def index_page(request):
             'locations': locations,
             'featured': Business.objects.filter(featured=True).all()
         }
+
         return render(request, 'app/index.html', context)
     except Exception as e:
         print(e)
@@ -55,6 +57,57 @@ def search_page(request):
 
     except Exception as e:
         print(e)
+        return JsonResponse({'statusMsg': 'error'}, status=404)
+
+
+def business_list(request):
+    try:
+        page_number = 1 if not request.GET.get('page') else request.GET.get('page')
+        paginator = Paginator(Business.objects.all(), 20)
+
+        data = serializers.serialize('json', paginator.get_page(page_number))
+
+        # Optionally return a JsonResponse in a view
+        return JsonResponse(data, safe=False)
+    except Exception as e:
+        print(e)
+
+def featured_business(request):
+    try:
+        data = serializers.serialize('json', Business.objects.filter(featured=True).all())
+
+        # Optionally return a JsonResponse in a view
+        return JsonResponse(data, safe=False)
+    except Exception as e:
+        print(e)
+
+
+def business_list_search(request, category, location):
+    try:
+        page_number = 1 if not request.GET.get('page')  else request.GET.get('page')
+        paginator = Paginator(Business.objects.filter(type__category__slug=category, type__slug=location), 20)
+        data = serializers.serialize('json', paginator.get_page(page_number))
+        return JsonResponse(data, safe=False)
+    except Exception as e:
+        print(e)
+        return JsonResponse({'statusMsg': 'error'}, status=404)
+
+
+def categories_list(request):
+    try:
+        data = serializers.serialize('json', BusinessCategories.objects.all())
+        return JsonResponse(data, safe=False)
+
+    except Exception as e:
+        return JsonResponse({'statusMsg': 'error'}, status=404)
+
+
+def types_list(request):
+    try:
+        data = serializers.serialize('json', BusinessTypes.objects.all())
+        return JsonResponse(data, safe=False)
+
+    except Exception as e:
         return JsonResponse({'statusMsg': 'error'}, status=404)
 
 
