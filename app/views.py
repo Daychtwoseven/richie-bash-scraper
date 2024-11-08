@@ -1,17 +1,12 @@
-import time
 from django.core import serializers
 from django.contrib import messages
-from django.db.models import Count
-from django.utils.text import slugify
-from selenium.webdriver.support.wait import WebDriverWait
 
 from app.models import BusinessTypes, Business, BusinessCategories
 from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from . locations import locations
-from datetime import datetime
-from app.update_data import UpdateData
+from update_data import UpdateData
 from app.google_scraper import run_google_scraper
 
 
