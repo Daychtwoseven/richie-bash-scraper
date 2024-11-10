@@ -35,7 +35,7 @@ class UpdateData:
         # Exclude businesses already updated today
         business = Business.objects.exclude(last_update__date=today)
 
-        with ThreadPoolExecutor(max_workers=1000) as executor:
+        with ThreadPoolExecutor(max_workers=5) as executor:
             # Submit tasks to the executor
             futures = {executor.submit(self.run_scraper_s1, row): row for row in business}
 
@@ -161,5 +161,4 @@ class UpdateData:
             return data
 
 
-# Initialize the scraper class
-UpdateData()
+if name

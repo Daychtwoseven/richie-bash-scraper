@@ -6,8 +6,6 @@ from django.core.paginator import Paginator
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from . locations import locations
-from update_data import UpdateData
-from app.google_scraper import run_google_scraper
 
 
 def index_page(request):
@@ -104,21 +102,6 @@ def types_list(request):
 
     except Exception as e:
         return JsonResponse({'statusMsg': 'error'}, status=404)
-
-
-def google_scraper(request):
-    try:
-        run_google_scraper()
-    except Exception as e:
-        print(e)
-        return JsonResponse({'statusMsg': 'error'}, status=404)
-
-
-def yelp_scraper(request):
-    try:
-        UpdateData()
-    except Exception as e:
-        print(e)
 
 
 def update_business_page(request, business_id):
